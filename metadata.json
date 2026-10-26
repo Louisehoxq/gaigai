@@ -1,0 +1,6 @@
+{
+  "name": "GaiGai — Singapore Social Enterprise Discovery & Impact Platform",
+  "description": "Discover where to spend time and money meaningfully in Singapore with interactive maps, weekend GaiGai trails, animated impact stories, and social enterprise analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
