@@ -3,7 +3,7 @@ import { BrandLogo } from './BrandLogo';
 import { Heart, ShieldCheck, MapPin } from 'lucide-react';
 
 interface FooterProps {
-  onNavigate: (tab: 'map' | 'directory' | 'about') => void;
+  onNavigate: (tab: 'map' | 'directory' | 'raise' | 'about') => void;
 }
 
 export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {

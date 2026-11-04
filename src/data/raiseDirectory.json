@@ -1,0 +1,7886 @@
+{
+ "source": "https://www.raise.sg/raise-membership-directory/ (public WordPress REST API: /wp-json/wp/v2/directory)",
+ "scope": "Verified Leading, Verified, Leading and Emerging social enterprises; excludes raiSE Impact Community members",
+ "fetchedOn": "2026-11-05",
+ "count": 359,
+ "entries": [
+  {
+   "id": 23489,
+   "name": "Good Games SG Pte. Ltd.",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/company-record-59120295083/"
+  },
+  {
+   "id": 23479,
+   "name": "Bliss Group",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/bliss-group/"
+  },
+  {
+   "id": 23451,
+   "name": "Elfigo Mobility Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-58583978565/"
+  },
+  {
+   "id": 23441,
+   "name": "Rice Consultancy Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    129,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-58417358467/"
+  },
+  {
+   "id": 23401,
+   "name": "Gener8 Eco Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    127
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-58071482905/"
+  },
+  {
+   "id": 23392,
+   "name": "AKIN BY TECHLYON",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/company-record-57998445644/"
+  },
+  {
+   "id": 23388,
+   "name": "Design Sojourn Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/company-record-57953138359/"
+  },
+  {
+   "id": 23382,
+   "name": "GivingFridays",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/company-record-57882189076/"
+  },
+  {
+   "id": 23371,
+   "name": "Kim Choo Kueh Chang",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-57717502510/"
+  },
+  {
+   "id": 23361,
+   "name": "RETA SOCIAL ENTERPRISE",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-27588404581/"
+  },
+  {
+   "id": 23344,
+   "name": "My Quail Care , Fertwerck",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": null,
+   "industry": null,
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-27607474261/"
+  },
+  {
+   "id": 23337,
+   "name": "Aisee Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 189,
+   "industry": "Information & Communications",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-57062519066/"
+  },
+  {
+   "id": 23329,
+   "name": "The Guild International College Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-56900616778/"
+  },
+  {
+   "id": 23328,
+   "name": "Stick ‘Em Private Limited",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/stick-em-private-limited/"
+  },
+  {
+   "id": 23318,
+   "name": "MIS",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-56561724555/"
+  },
+  {
+   "id": 23312,
+   "name": "Transforming Lives",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-56513653606/"
+  },
+  {
+   "id": 23299,
+   "name": "Path Finder Tuition",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-55932668485/"
+  },
+  {
+   "id": 23283,
+   "name": "Second Life",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-55597084417/"
+  },
+  {
+   "id": 23274,
+   "name": "Solve Education!",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-55578535977/"
+  },
+  {
+   "id": 23261,
+   "name": "Bright Mind Learning Hub Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    127
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with debilitating health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-55504419076/"
+  },
+  {
+   "id": 23231,
+   "name": "(TEST) Fractsidus",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/company-record-55467299242/"
+  },
+  {
+   "id": 23225,
+   "name": "Lickers",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-55425960717/"
+  },
+  {
+   "id": 23196,
+   "name": "Weavework Collective",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/company-record-54961613169/"
+  },
+  {
+   "id": 23180,
+   "name": "ReRootSG",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 197,
+   "industry": "Agriculture",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    129,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mobility challenges",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-54841392783/"
+  },
+  {
+   "id": 23169,
+   "name": "Olive Tree Development Center Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-54752225695/"
+  },
+  {
+   "id": 23127,
+   "name": "Sukhatara",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-54270845500/"
+  },
+  {
+   "id": 23100,
+   "name": "Pandaluxe Vision Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-53963458097/"
+  },
+  {
+   "id": 23095,
+   "name": "NIVAA",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-53958399359/"
+  },
+  {
+   "id": 23092,
+   "name": "Marymount Labs",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/company-record-53945455531/"
+  },
+  {
+   "id": 23082,
+   "name": "Transcend Services",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/transcend-services/"
+  },
+  {
+   "id": 23061,
+   "name": "Fogo Fungi",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 197,
+   "industry": "Agriculture",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-53236544641-3/"
+  },
+  {
+   "id": 23037,
+   "name": "Summer’s Therapy Services",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    127,
+    128,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-53028692816-5/"
+  },
+  {
+   "id": 22980,
+   "name": "We Are Caring",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 188,
+   "industry": "Household Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    123
+   ],
+   "beneficiaries": [
+    "Foreign migrant or domestic workers"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-27606559636/"
+  },
+  {
+   "id": 22965,
+   "name": "BLUEATRIA RESIDENCES",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    127,
+    129
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/blueatria-residences-3/"
+  },
+  {
+   "id": 22951,
+   "name": "Ambrave Counselling and Therapy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/ambrave-counselling-and-therapy-3/"
+  },
+  {
+   "id": 22943,
+   "name": "Evolve Innovative Solutions Pte. Ltd.",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/evolve-innovative-solutions-pte-ltd-3/"
+  },
+  {
+   "id": 22922,
+   "name": "Ark Grit",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/ark-grit-3/"
+  },
+  {
+   "id": 22917,
+   "name": "CallBridge",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 189,
+   "industry": "Information & Communications",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/callbridge-pte-ltd-3/"
+  },
+  {
+   "id": 22914,
+   "name": "Soma Haus",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    127,
+    128
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/soma-haus-3/"
+  },
+  {
+   "id": 22908,
+   "name": "Rejuvrth",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/rejuvrth-3/"
+  },
+  {
+   "id": 22901,
+   "name": "Avantus Training",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [],
+   "beneficiaryCodes": [
+    124,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/avantus-training-3/"
+  },
+  {
+   "id": 22891,
+   "name": "Huxter Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/huxter-pte-ltd-3/"
+  },
+  {
+   "id": 22890,
+   "name": "Caresons Social Enterprise",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/caresons-social-enterprise-3/"
+  },
+  {
+   "id": 22885,
+   "name": "念恩生命礼仪",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/%e5%bf%b5%e6%81%a9%e7%94%9f%e5%91%bd%e7%a4%bc%e4%bb%aa-3/"
+  },
+  {
+   "id": 22882,
+   "name": "PlusSantai LLP",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": null,
+   "industry": null,
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/plussantai-llp-3/"
+  },
+  {
+   "id": 22881,
+   "name": "Ezra Healthcare Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 190,
+   "industry": "Logistics & Transportation",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/ezra-healthcare-pte-ltd-3/"
+  },
+  {
+   "id": 22880,
+   "name": "QQME Enterprise",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/qqme-enterprise-3/"
+  },
+  {
+   "id": 22878,
+   "name": "The Conscious Mind Psychotherapy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    128,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/the-conscious-mind-psychotherapy-3/"
+  },
+  {
+   "id": 22871,
+   "name": "Personalised Love Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/personalised-love-pte-ltd-3/"
+  },
+  {
+   "id": 22867,
+   "name": "Made Here Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/made-here-3/"
+  },
+  {
+   "id": 22855,
+   "name": "Swim Haven Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/swim-haven-pte-ltd-3/"
+  },
+  {
+   "id": 22817,
+   "name": "Agape Services",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/agape-services-pte-ltd-2/"
+  },
+  {
+   "id": 22812,
+   "name": "Impact Colliders",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/impact-colliders-2/"
+  },
+  {
+   "id": 22788,
+   "name": "CCM Costume",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/ccm-costume-2/"
+  },
+  {
+   "id": 22781,
+   "name": "Wholesome Savour Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/wholesome-savour-pte-ltd-2/"
+  },
+  {
+   "id": 22772,
+   "name": "ROTI KARI",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/roti-kari-2/"
+  },
+  {
+   "id": 22764,
+   "name": "Talentgeist Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/talentgeist-pte-ltd-2/"
+  },
+  {
+   "id": 22758,
+   "name": "Torpedo Aquatics",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/torpedo-aquatics-2/"
+  },
+  {
+   "id": 22756,
+   "name": "Agape Connecting People Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    127,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/agape-connecting-people-pte-ltd-3/"
+  },
+  {
+   "id": 22745,
+   "name": "Kindred Therapy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/kindred-therapy-2/"
+  },
+  {
+   "id": 22744,
+   "name": "Smitten Coffee Roasters",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    130
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/smitten-coffee-roasters-2/"
+  },
+  {
+   "id": 22738,
+   "name": "Blue Plan Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/blue-plan-ltd-2/"
+  },
+  {
+   "id": 22735,
+   "name": "Dinosaur Therapy Group",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/dinosaur-therapy-group-2/"
+  },
+  {
+   "id": 22734,
+   "name": "Edith Patisserie",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/edith-patisserie-2/"
+  },
+  {
+   "id": 22729,
+   "name": "Green Nudge",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/green-nudge-2/"
+  },
+  {
+   "id": 22721,
+   "name": "Jetters",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/jetters-incz-pte-ltd-2/"
+  },
+  {
+   "id": 22718,
+   "name": "Hovi Care",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/hovi-care-2/"
+  },
+  {
+   "id": 22708,
+   "name": "Ceramication Asia PTE LTD",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/ceramication-asia-pte-ltd-2/"
+  },
+  {
+   "id": 22687,
+   "name": "Danisa Cukkie Corp Pte",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/danisa-cukkie-corp-pte-2/"
+  },
+  {
+   "id": 22524,
+   "name": "Rosebrook Developmental Centre",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    128,
+    129,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/rosebrook-developmental-centre/"
+  },
+  {
+   "id": 22523,
+   "name": "Digital Dream",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/digital-dream-2/"
+  },
+  {
+   "id": 22522,
+   "name": "The Eleventh Production",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    128,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/the-eleventh-production-2/"
+  },
+  {
+   "id": 22521,
+   "name": "Eco-Harmony Global Network Limited",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/eco-harmony-global-network-limited/"
+  },
+  {
+   "id": 22520,
+   "name": "Growthbeans",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    123,
+    126,
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Foreign migrant or domestic workers",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/growthbeans/"
+  },
+  {
+   "id": 22519,
+   "name": "Tribe App",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/tribe-app/"
+  },
+  {
+   "id": 22518,
+   "name": "goodjobs.com.sg",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    123,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Foreign migrant or domestic workers",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/the-social-equity-pte-ltd/"
+  },
+  {
+   "id": 22517,
+   "name": "Bamboo Builders",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    123,
+    124,
+    126,
+    127,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Foreign migrant or domestic workers",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/bamboo-builders-2/"
+  },
+  {
+   "id": 22516,
+   "name": "Crossings Social Ventures",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/crossings-social-ventures/"
+  },
+  {
+   "id": 22515,
+   "name": "Mamana Kitchen",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    127,
+    128,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/mamana-kitchen/"
+  },
+  {
+   "id": 22513,
+   "name": "Baby Express Singapore Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/baby-express-singapore-pte-ltd/"
+  },
+  {
+   "id": 22512,
+   "name": "Jumping Singapore",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    124,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/jumping-singapore/"
+  },
+  {
+   "id": 22511,
+   "name": "Red Crowns Senior Living",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    127,
+    129
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/red-crowns-senior-living/"
+  },
+  {
+   "id": 22510,
+   "name": "Eyeviser",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    127,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/eyeviser-2/"
+  },
+  {
+   "id": 22509,
+   "name": "The Art People Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/the-art-people-pte-ltd/"
+  },
+  {
+   "id": 22508,
+   "name": "Tagteam Technologies (Tictag)",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 189,
+   "industry": "Information & Communications",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/tagteam-technologies-tictag/"
+  },
+  {
+   "id": 22507,
+   "name": "Active Silvers",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 178,
+   "industry": "Beauty & Wellness",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    127,
+    129
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/active-silvers-pte-ltd-2/"
+  },
+  {
+   "id": 22506,
+   "name": "Fynnz International Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/fynnz-international-pte-ltd/"
+  },
+  {
+   "id": 22505,
+   "name": "Me Solshare International Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": null,
+   "industry": null,
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/me-solshare-international-pte-ltd/"
+  },
+  {
+   "id": 22504,
+   "name": "Grace Mission Agri",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 197,
+   "industry": "Agriculture",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    128,
+    129,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/grace-mission-agri/"
+  },
+  {
+   "id": 22503,
+   "name": "PEOPLE'S OPTICS",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/peoples-optics/"
+  },
+  {
+   "id": 22502,
+   "name": "St Bernadette Assisted Living",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    129
+   ],
+   "beneficiaries": [
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/st-bernadette-assisted-living/"
+  },
+  {
+   "id": 22501,
+   "name": "serendipET Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/serendipet-pte-ltd/"
+  },
+  {
+   "id": 22500,
+   "name": "Beacon of Life Tuition Centre",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-52201448239-12/"
+  },
+  {
+   "id": 22469,
+   "name": "Saint Clare School for Special Education Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-50200449179-6/"
+  },
+  {
+   "id": 22422,
+   "name": "XIOHOO",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    127,
+    129
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-51978115341/"
+  },
+  {
+   "id": 22386,
+   "name": "FingerDance",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 189,
+   "industry": "Information & Communications",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-51219851893/"
+  },
+  {
+   "id": 22167,
+   "name": "Eco-Business Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 181,
+   "industry": "Creative, Media & Publication",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-39846453248-23/"
+  },
+  {
+   "id": 21956,
+   "name": "Sense of Arts",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35736729515-2/"
+  },
+  {
+   "id": 21483,
+   "name": "Fit Kaki Pte. Ltd.",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-40603413643-4/"
+  },
+  {
+   "id": 20746,
+   "name": "Lumina Impact",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/company-record-35992823081/"
+  },
+  {
+   "id": 20619,
+   "name": "SAFE WATER GARDENS",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-27590954356-4/"
+  },
+  {
+   "id": 19718,
+   "name": "Heritage Bay",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/company-record-35644975745/"
+  },
+  {
+   "id": 19586,
+   "name": "Click Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35644070244/"
+  },
+  {
+   "id": 19269,
+   "name": "Crunchy Teeth",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35567317763/"
+  },
+  {
+   "id": 18546,
+   "name": "Ark Grit",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35474300303/"
+  },
+  {
+   "id": 18449,
+   "name": "Little Smarties Student Care",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35458889227/"
+  },
+  {
+   "id": 18448,
+   "name": "YounginCoaches",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    132
+   ],
+   "beneficiaries": [
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35467490121/"
+  },
+  {
+   "id": 17874,
+   "name": "CONNEXIONS",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35415477925/"
+  },
+  {
+   "id": 16852,
+   "name": "Lion City Inclusive Chess",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": null,
+   "industry": null,
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35260312926/"
+  },
+  {
+   "id": 16774,
+   "name": "TOMORO COFFEE",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35226276694/"
+  },
+  {
+   "id": 15399,
+   "name": "Pass It On",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-35015164036/"
+  },
+  {
+   "id": 15121,
+   "name": "Impactivity Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 181,
+   "industry": "Creative, Media & Publication",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    132
+   ],
+   "beneficiaries": [
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/company-record-34977748055/"
+  },
+  {
+   "id": 10422,
+   "name": "Browned Butter Bakehouse",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals"
+   ],
+   "url": "https://www.raise.sg/directory/browned-butter-bakehouse-llp-2/"
+  },
+  {
+   "id": 10420,
+   "name": "Sixthsense Business Consulting",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/sixthsense-business-consulting-pte-ltd-2/"
+  },
+  {
+   "id": 10417,
+   "name": "smol café & salad bar",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/sputz-pte-ltd-smol-2/"
+  },
+  {
+   "id": 10414,
+   "name": "Tinkerbox",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 181,
+   "industry": "Creative, Media & Publication",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/tinkerbox-2/"
+  },
+  {
+   "id": 10413,
+   "name": "BGA Inclusive Fitness",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/bga-inclusive-fitness-pte-ltd-2/"
+  },
+  {
+   "id": 10409,
+   "name": "Give.Asia",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/giveasia-pte-ltd-3/"
+  },
+  {
+   "id": 10407,
+   "name": "Mad Roaster",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/mad-eats-pte-ltd-2/"
+  },
+  {
+   "id": 10401,
+   "name": "TIGGIE KIDS",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/tiggie-kids-pte-ltd-2/"
+  },
+  {
+   "id": 10395,
+   "name": "InSchool",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    128,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/inschool-pte-ltd-2/"
+  },
+  {
+   "id": 10391,
+   "name": "Lifecraft Training",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/lifecraft-training-pte-ltd-3/"
+  },
+  {
+   "id": 10386,
+   "name": "The Prosthetic Company",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/prosthetic-company-private-limited-2/"
+  },
+  {
+   "id": 10384,
+   "name": "Vitamin Change",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 181,
+   "industry": "Creative, Media & Publication",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/vitamin-change-pte-ltd-2/"
+  },
+  {
+   "id": 10381,
+   "name": "Distinct Creative Arts",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/distinct-creative-arts-pte-ltd-2/"
+  },
+  {
+   "id": 10378,
+   "name": "Social Gifting",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/sgifting-pte-ltd-2/"
+  },
+  {
+   "id": 10374,
+   "name": "ANJUS TUITION CENTRE",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/anjus-tuition-centre-2/"
+  },
+  {
+   "id": 10371,
+   "name": "Preschool Market",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/preschool-market-pte-ltd-2/"
+  },
+  {
+   "id": 10369,
+   "name": "QUANTUMTX",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/quantumtx-pte-ltd-2/"
+  },
+  {
+   "id": 10366,
+   "name": "Soqqle",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/soqqle-pte-ltd-2/"
+  },
+  {
+   "id": 10363,
+   "name": "Social Collider",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/social-collider-pte-ltd-2/"
+  },
+  {
+   "id": 9348,
+   "name": "Co:Creation Workshop",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/cocreation-workshop-3/"
+  },
+  {
+   "id": 8619,
+   "name": "Wonder Words Therapy",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/wonder-words-therapy-pte-ltd/"
+  },
+  {
+   "id": 8617,
+   "name": "TLC Speech Clinic",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/tlc-speech-clinic-pte-ltd/"
+  },
+  {
+   "id": 8614,
+   "name": "Hope for Tomorrow Psychology Centre",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    128
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mental health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/hope-for-tomorrow-psychology-centre-pte-ltd/"
+  },
+  {
+   "id": 8610,
+   "name": "GoFit Toa Payoh (jianshengfang)",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/jianshenfang-pte-ltd/"
+  },
+  {
+   "id": 8606,
+   "name": "SDB Art Space",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/sdb-art-space/"
+  },
+  {
+   "id": 8597,
+   "name": "The Tuition Private Limited",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/the-tuition-private-limited/"
+  },
+  {
+   "id": 8577,
+   "name": "SCHOOL ON CLOUD",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/school-on-cloud-pte-ltd/"
+  },
+  {
+   "id": 8575,
+   "name": "MakBesar",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/makbesar-pte-ltd/"
+  },
+  {
+   "id": 8572,
+   "name": "Wildflower SG",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    127,
+    129,
+    132
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/wildflower-sg-pte-ltd/"
+  },
+  {
+   "id": 8569,
+   "name": "The Interchange",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/the-interchange-llp/"
+  },
+  {
+   "id": 8552,
+   "name": "NannyPro Care Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/nannypro-care-pte-ltd/"
+  },
+  {
+   "id": 8544,
+   "name": "The Caffeine Experience",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/the-caffeine-experience-pte-ltd/"
+  },
+  {
+   "id": 8540,
+   "name": "Mathmatico",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    131
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/mathmatico-pte-ltd/"
+  },
+  {
+   "id": 8538,
+   "name": "LND Concept",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/lnd-concept/"
+  },
+  {
+   "id": 8537,
+   "name": "3 Degrees App",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 181,
+   "industry": "Creative, Media & Publication",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/3-degrees-app-pte-ltd/"
+  },
+  {
+   "id": 8536,
+   "name": "Soul Food Enterprise",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/soul-food-enterprise-pte-ltd/"
+  },
+  {
+   "id": 8533,
+   "name": "Nutrious Farms",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 197,
+   "industry": "Agriculture",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/nutrious-farms-pte-ltd/"
+  },
+  {
+   "id": 8531,
+   "name": "CENTRE OF NEW LIFE SCHOOLHOUSE",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/centre-of-new-life-schoolhouse-ltd/"
+  },
+  {
+   "id": 8530,
+   "name": "Joo Chiat Social Club",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    127
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/muein/"
+  },
+  {
+   "id": 8527,
+   "name": "Leading Education",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/leading-education-pte-ltd/"
+  },
+  {
+   "id": 8502,
+   "name": "Curious Thoughts Academy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/curious-thoughts-academy-pte-ltd/"
+  },
+  {
+   "id": 8497,
+   "name": "Savoir Asia Consulting Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": null,
+   "industry": null,
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/savoir-asia-consulting-pte-ltd/"
+  },
+  {
+   "id": 8469,
+   "name": "The Green Collective SG",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/the-green-collective-sg-pte-ltd/"
+  },
+  {
+   "id": 8465,
+   "name": "TERRA SG",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/terra-sg-pte-ltd/"
+  },
+  {
+   "id": 8461,
+   "name": "Seeteey",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/seeteey-pte-ltd/"
+  },
+  {
+   "id": 8459,
+   "name": "ECI Consulting Holdings",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/eci-consulting-holdings-pte-ltd/"
+  },
+  {
+   "id": 8455,
+   "name": "PURPLEANDPURE",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/purpleandpure-pte-ltd/"
+  },
+  {
+   "id": 8444,
+   "name": "Oh My Goodness!",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/oh-my-goodness-pte-ltd/"
+  },
+  {
+   "id": 8440,
+   "name": "Unpackt",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    127,
+    131
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/unpackt-pte-ltd/"
+  },
+  {
+   "id": 8431,
+   "name": "FORTISWILLS",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/fortiswills-pte-ltd/"
+  },
+  {
+   "id": 8425,
+   "name": "Go!Mama",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    124,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Former offenders / incarcerated individuals",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/gomama-private-limited/"
+  },
+  {
+   "id": 8421,
+   "name": "WILDNESS ASIA",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/wildness-asia-pte-ltd/"
+  },
+  {
+   "id": 8417,
+   "name": "Declarators",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 190,
+   "industry": "Logistics & Transportation",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    129
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/declarators-pte-ltd/"
+  },
+  {
+   "id": 8415,
+   "name": "Corporate Alliance for Good",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/corporate-alliance-for-good-ltd/"
+  },
+  {
+   "id": 8406,
+   "name": "The Animal Project",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/the-animal-project-pte-ltd/"
+  },
+  {
+   "id": 8404,
+   "name": "Foreword Coffee",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/foreword-coffee/"
+  },
+  {
+   "id": 8385,
+   "name": "Superduper Labs",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    124,
+    126,
+    127,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/superduper-labs-pte-ltd/"
+  },
+  {
+   "id": 8383,
+   "name": "TREATSURE",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 189,
+   "industry": "Information & Communications",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/treatsure-pte-ltd/"
+  },
+  {
+   "id": 8374,
+   "name": "Thirtytwocm",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/thirtytwocm/"
+  },
+  {
+   "id": 8372,
+   "name": "Seven Clean Seas",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    128,
+    131
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/seven-clean-seas-pte-ltd/"
+  },
+  {
+   "id": 8369,
+   "name": "Market for Good",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/dagiz-pte-ltd/"
+  },
+  {
+   "id": 8367,
+   "name": "Cheers Learning and Assessment Services",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    128,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/cheers-learning-services/"
+  },
+  {
+   "id": 8354,
+   "name": "Genashtim",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/genashtim-innovative-learning/"
+  },
+  {
+   "id": 8351,
+   "name": "Hatch",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    128,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/hatch-technologies/"
+  },
+  {
+   "id": 8342,
+   "name": "Aison",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    129
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/aison-pte-ltd/"
+  },
+  {
+   "id": 8340,
+   "name": "E3 Sports",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    129
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/e3-sports-pte-ltd/"
+  },
+  {
+   "id": 8336,
+   "name": "Equal Dreams",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/equal-dreams/"
+  },
+  {
+   "id": 8334,
+   "name": "Acestes",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/acestes-pte-ltd/"
+  },
+  {
+   "id": 8326,
+   "name": "PUP",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 190,
+   "industry": "Logistics & Transportation",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/power-up-tech-pte-ltd/"
+  },
+  {
+   "id": 8324,
+   "name": "Agape CP Holdings Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    128,
+    129
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/agape-connecting-people-pte-ltd/"
+  },
+  {
+   "id": 8310,
+   "name": "COLLECTIVE GOOD CO",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    130
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/collective-good-co-pte-ltd/"
+  },
+  {
+   "id": 8305,
+   "name": "Tetsuyu Healthcare Holdings",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/tetsuyu-healthcare-holdings-pte-ltd/"
+  },
+  {
+   "id": 8301,
+   "name": "NWC Longevity Practice",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/nwc-longevity-practice-pte-ltd/"
+  },
+  {
+   "id": 8298,
+   "name": "Trampolene",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 189,
+   "industry": "Information & Communications",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/trampolene-limited/"
+  },
+  {
+   "id": 8290,
+   "name": "EXPONENTIAL LEARNING LAB PTE",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/exponential-learning-lab-pte-ltd/"
+  },
+  {
+   "id": 8288,
+   "name": "The Nail Social",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 178,
+   "industry": "Beauty & Wellness",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/the-nail-social-pte-ltd/"
+  },
+  {
+   "id": 8286,
+   "name": "Dajie Makan Place",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/nom-nom-pte-ltd/"
+  },
+  {
+   "id": 8284,
+   "name": "School of Concepts",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/school-of-concepts-pte-ltd/"
+  },
+  {
+   "id": 8278,
+   "name": "Coco Veda Singapore",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 178,
+   "industry": "Beauty & Wellness",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/coco-veda-singapore-pte-ltd/"
+  },
+  {
+   "id": 8276,
+   "name": "CaptionCube",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 181,
+   "industry": "Creative, Media & Publication",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/captioncube-pte-ltd/"
+  },
+  {
+   "id": 8268,
+   "name": "Wings Therapy Center",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/wings-therapy-center-pte-ltd/"
+  },
+  {
+   "id": 8071,
+   "name": "ArchitectsofLife",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    124,
+    128
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with mental health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/architectsoflife-ltd/"
+  },
+  {
+   "id": 8067,
+   "name": "AGE MATTERS",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/age-matters/"
+  },
+  {
+   "id": 8064,
+   "name": "Octopus8",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 189,
+   "industry": "Information & Communications",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    124,
+    130
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/octopus8-private-limited/"
+  },
+  {
+   "id": 8052,
+   "name": "Martial House",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/martial-house-pte-ltd/"
+  },
+  {
+   "id": 8041,
+   "name": "SenzeHub",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/senzehub-pte-ltd/"
+  },
+  {
+   "id": 8039,
+   "name": "SG Assist",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/sg-assist-pte-ltd/"
+  },
+  {
+   "id": 8037,
+   "name": "Edible Garden City",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 197,
+   "industry": "Agriculture",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    124,
+    128,
+    129,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Former offenders / incarcerated individuals",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/edible-garden-city-pte-ltd/"
+  },
+  {
+   "id": 7797,
+   "name": "YOUNG NAUTILUS",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/young-nautilus/"
+  },
+  {
+   "id": 7732,
+   "name": "The Volunteer Switchboard",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/the-volunteer-switchboard/"
+  },
+  {
+   "id": 7728,
+   "name": "Speco Singapore",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/speco-singapore-pte-ltd/"
+  },
+  {
+   "id": 7723,
+   "name": "Dove Doodle Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/dove-doodle-pte-ltd/"
+  },
+  {
+   "id": 7715,
+   "name": "JOJOMAMA",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/athome-decor-pte-ltd/"
+  },
+  {
+   "id": 7713,
+   "name": "Eden And Elie",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    130
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/eden-elie/"
+  },
+  {
+   "id": 7710,
+   "name": "Project Dignity",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    127,
+    128,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/project-dignity-pte-ltd/"
+  },
+  {
+   "id": 7706,
+   "name": "TeddyThotz",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/teddythotz/"
+  },
+  {
+   "id": 7699,
+   "name": "ForBis Pte. Ltd.",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/forbis-accounting-pte-ltd/"
+  },
+  {
+   "id": 7696,
+   "name": "CAMP CHALLENGE",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    124,
+    128,
+    129,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/camp-challenge-pte-ltd/"
+  },
+  {
+   "id": 7694,
+   "name": "True Blue Beauty",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 178,
+   "industry": "Beauty & Wellness",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    129,
+    131
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with mobility challenges",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/true-blue-beauty-private-limited/"
+  },
+  {
+   "id": 7668,
+   "name": "CITYSPROUTS",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 197,
+   "industry": "Agriculture",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    129,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/city-sprouts/"
+  },
+  {
+   "id": 7665,
+   "name": "The Ubuntu Space",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    128
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/the-ubuntu-space-llp/"
+  },
+  {
+   "id": 7647,
+   "name": "Biologic Technik",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 189,
+   "industry": "Information & Communications",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/biologic-technik-pte-ltd/"
+  },
+  {
+   "id": 7636,
+   "name": "Music Solutions",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/music-solutions/"
+  },
+  {
+   "id": 7631,
+   "name": "Findjobs",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/findjobs-pte-ltd/"
+  },
+  {
+   "id": 7612,
+   "name": "Infinite Transports",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 190,
+   "industry": "Logistics & Transportation",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/infinite-transports/"
+  },
+  {
+   "id": 7609,
+   "name": "The Social Space",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    128,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/the-social-space-pte-ltd/"
+  },
+  {
+   "id": 7608,
+   "name": "Zeelous Marketing",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 181,
+   "industry": "Creative, Media & Publication",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    129,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mobility challenges",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/zeelous-marketing-pte-ltd/"
+  },
+  {
+   "id": 7596,
+   "name": "Neurovex",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    132
+   ],
+   "beneficiaries": [
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/neurovex-pte-ltd/"
+  },
+  {
+   "id": 7593,
+   "name": "Amazing Collective",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    127,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/amazing-speech-therapy-pte-ltd/"
+  },
+  {
+   "id": 7573,
+   "name": "U Farm",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    129,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/u-farm-pte-ltd/"
+  },
+  {
+   "id": 7562,
+   "name": "YAN FENG SHUI METAPHYSICS",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/yan-feng-shui-metaphysics-pte-ltd/"
+  },
+  {
+   "id": 7553,
+   "name": "Hello Flowers! Singapore",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    123,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Foreign migrant or domestic workers",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/hello-flowers-sg/"
+  },
+  {
+   "id": 7550,
+   "name": "Blended Concept",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    129
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/blended-concept-private-limited/"
+  },
+  {
+   "id": 7529,
+   "name": "Drum Prodigy Singapore",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/drum-prodigy-singapore-pte-ltd/"
+  },
+  {
+   "id": 7526,
+   "name": "DOLBOMDREAM ASIA",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/dolbomdream-asia-pte-ltd/"
+  },
+  {
+   "id": 7524,
+   "name": "BUTLER",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 188,
+   "industry": "Household Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    123,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Foreign migrant or domestic workers",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/butlerinsuits-pte-ltd/"
+  },
+  {
+   "id": 7517,
+   "name": "Fieldseas",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    122,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/fieldseas-pte-ltd/"
+  },
+  {
+   "id": 7515,
+   "name": "ProAge",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/proage-pte-ltd/"
+  },
+  {
+   "id": 7511,
+   "name": "JoyWaltzStudio",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/joywaltzstudio-pte-ltd/"
+  },
+  {
+   "id": 7509,
+   "name": "GOOD CHEF",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/good-chef-pte-ltd/"
+  },
+  {
+   "id": 7497,
+   "name": "Make the Change",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 181,
+   "industry": "Creative, Media & Publication",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/make-the-change/"
+  },
+  {
+   "id": 7482,
+   "name": "The Colourful Mind",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/the-colourful-mind-pte-ltd/"
+  },
+  {
+   "id": 7474,
+   "name": "TOTAL WELLNESS INITIATIVE SINGAPORE",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/total-wellness-initiative-singapore-llp/"
+  },
+  {
+   "id": 7470,
+   "name": "Nazava Water Filters",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/nazava-water-filters-pte-ltd/"
+  },
+  {
+   "id": 7460,
+   "name": "Bettr Group",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/bettr-barista-pte-ltd/"
+  },
+  {
+   "id": 7457,
+   "name": "Naksu Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/naksu-pte-ltd/"
+  },
+  {
+   "id": 7450,
+   "name": "VIP HOLDINGS INC",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/the-peranakan/"
+  },
+  {
+   "id": 7447,
+   "name": "Viva Kids",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/viva-kids-pte-ltd/"
+  },
+  {
+   "id": 7309,
+   "name": "Ma Te Sai",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/ma-te-sai-pte-ltd/"
+  },
+  {
+   "id": 6754,
+   "name": "Elite Recruitment Services Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    123
+   ],
+   "beneficiaries": [
+    "Foreign migrant or domestic workers"
+   ],
+   "url": "https://www.raise.sg/directory/elite-recruitment-services-pte-ltd/"
+  },
+  {
+   "id": 6747,
+   "name": "Tongle Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    124,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/tongle-pte-ltd/"
+  },
+  {
+   "id": 6734,
+   "name": "MeMove",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 190,
+   "industry": "Logistics & Transportation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/memove-pte-ltd/"
+  },
+  {
+   "id": 6703,
+   "name": "Ibasho Wellness Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/ibasho-mindfulness/"
+  },
+  {
+   "id": 6683,
+   "name": "Joyful Soul Psychology",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    127,
+    128,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/joyful-soul-psychology/"
+  },
+  {
+   "id": 6679,
+   "name": "Jade Life & Wellness Coaching",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 178,
+   "industry": "Beauty & Wellness",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    128,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/jade-life-and-wellness-pte-ltd/"
+  },
+  {
+   "id": 6670,
+   "name": "Farmily",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/farmily-pte-ltd/"
+  },
+  {
+   "id": 6661,
+   "name": "Bridging Generations Pte Ltd",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    129,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/bridging-generations/"
+  },
+  {
+   "id": 6660,
+   "name": "The Courage Chapter",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/the-courage-chapter/"
+  },
+  {
+   "id": 6653,
+   "name": "RainbowAsia",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/rainbowasia-org/"
+  },
+  {
+   "id": 6642,
+   "name": "Human-animal bond In Ministry (HIM)",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    124,
+    128,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with mental health conditions",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/human-animal-bond-in-ministry-him/"
+  },
+  {
+   "id": 6640,
+   "name": "Hydro Aquatic",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/hydro-aquatic-pte-ltd/"
+  },
+  {
+   "id": 6636,
+   "name": "Mandala Wellness & Psychology Practice",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/mandala-wellness-psychology-practice/"
+  },
+  {
+   "id": 6626,
+   "name": "Omollomo",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/revive-snacks-pte-ltd/"
+  },
+  {
+   "id": 6624,
+   "name": "Mindful Space",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/mindful-space-pte-ltd/"
+  },
+  {
+   "id": 6623,
+   "name": "Mindful Circle",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 178,
+   "industry": "Beauty & Wellness",
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/mindful-circle/"
+  },
+  {
+   "id": 6619,
+   "name": "Empact",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/empact-technology-pte-ltd/"
+  },
+  {
+   "id": 6618,
+   "name": "Sancare Asia",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [],
+   "beneficiaryCodes": [
+    127,
+    128,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/sancare-asia/"
+  },
+  {
+   "id": 6617,
+   "name": "Ocean Purpose Project",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    128,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/ocean-purpose-project/"
+  },
+  {
+   "id": 6613,
+   "name": "Semula",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/semula-pte-ltd/"
+  },
+  {
+   "id": 6608,
+   "name": "little changemakers",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/little-changemakers/"
+  },
+  {
+   "id": 6605,
+   "name": "Ohana Therapy",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/ohana-therapy/"
+  },
+  {
+   "id": 6604,
+   "name": "M S L CONSULTANCY",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/msl-consultancy-pte-ltd/"
+  },
+  {
+   "id": 6598,
+   "name": "THE HUMBLE HOME",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/the-humble-home/"
+  },
+  {
+   "id": 6597,
+   "name": "NannyPro",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 188,
+   "industry": "Household Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/nannypro-pte-ltd/"
+  },
+  {
+   "id": 6595,
+   "name": "Our Journey Counselling & Wellness",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    128,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with mental health conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/our-journey-counselling-and-wellness-pte-ltd/"
+  },
+  {
+   "id": 6594,
+   "name": "VetMobile, fur folks home",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    127,
+    128
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/vetmobile/"
+  },
+  {
+   "id": 6592,
+   "name": "D2L.sg",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    123,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Foreign migrant or domestic workers",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/d2l-sg/"
+  },
+  {
+   "id": 6590,
+   "name": "Sol Therapy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/sol-therapeutics-pte-ltd/"
+  },
+  {
+   "id": 6588,
+   "name": "SL2 Impact",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    129
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/sl2-impact/"
+  },
+  {
+   "id": 6586,
+   "name": "Genius Plus Academy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/genius-plus-academy/"
+  },
+  {
+   "id": 6584,
+   "name": "Enterprising Mums Unite LLP",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    123,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Foreign migrant or domestic workers",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/enterprising-mums-united/"
+  },
+  {
+   "id": 6582,
+   "name": "ASPIRE INCLUSIVE EDUCATION",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/aspire-inclusive-education-pte-ltd/"
+  },
+  {
+   "id": 6581,
+   "name": "Inclus",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/inclus/"
+  },
+  {
+   "id": 6580,
+   "name": "Love Roots",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 197,
+   "industry": "Agriculture",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    129,
+    131
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mobility challenges",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/shiokfarm/"
+  },
+  {
+   "id": 6578,
+   "name": "One Heart Cleaning",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    124,
+    126,
+    128,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/one-heart-cleaning/"
+  },
+  {
+   "id": 6572,
+   "name": "MJD-PRO GROUP PTE LTD",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/mjd-pro-group/"
+  },
+  {
+   "id": 6563,
+   "name": "EN-ABLY",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/en-ably/"
+  },
+  {
+   "id": 6561,
+   "name": "Apsara Asia",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/apsara-asia-pte-ltd/"
+  },
+  {
+   "id": 6559,
+   "name": "susGain",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/susgain/"
+  },
+  {
+   "id": 6554,
+   "name": "Good News Cafe and Providence Cafe and Bakery",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/ifood-pte-ltd/"
+  },
+  {
+   "id": 6552,
+   "name": "Splendore Montessori",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/splendore-montessori-pte-ltd/"
+  },
+  {
+   "id": 6546,
+   "name": "Swapaholic",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/swapaholic/"
+  },
+  {
+   "id": 6545,
+   "name": "Faith Music Centre",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/faith-music-centre/"
+  },
+  {
+   "id": 6542,
+   "name": "Ecoworks",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 188,
+   "industry": "Household Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/ecoworks/"
+  },
+  {
+   "id": 6541,
+   "name": "ITALLSTARTSHEAR",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    127,
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/itallstartshear-iash-sg/"
+  },
+  {
+   "id": 6540,
+   "name": "Anto Medcare",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/anto-medcare-pte-ltd/"
+  },
+  {
+   "id": 6537,
+   "name": "Fyreflyz",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 198,
+   "industry": "Others",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/fyreflyz/"
+  },
+  {
+   "id": 6536,
+   "name": "S17 Kitchens",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/s17-community-kitchens/"
+  },
+  {
+   "id": 6533,
+   "name": "World Toilet Organization",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/world-toilet-organization-limited/"
+  },
+  {
+   "id": 6531,
+   "name": "Blessed2blessing",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/heysprouts/"
+  },
+  {
+   "id": 6530,
+   "name": "Green Sproutz Singapore",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/green-sproutz-singapore/"
+  },
+  {
+   "id": 6529,
+   "name": "Rolling Pineapple",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/rolling-pineapple-first-aid-training-centre/"
+  },
+  {
+   "id": 6524,
+   "name": "A Kind Place",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/a-kind-place-pte-ltd/"
+  },
+  {
+   "id": 6523,
+   "name": "rehyphen",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions"
+   ],
+   "url": "https://www.raise.sg/directory/rehyphen/"
+  },
+  {
+   "id": 6522,
+   "name": "Socio Vitae",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 180,
+   "industry": "Construction & Real Estate",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/socio-vitae-pte-ltd/"
+  },
+  {
+   "id": 6519,
+   "name": "Yoon's Social Kitchen by Yoon's Traditional Teochew Kueh",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals"
+   ],
+   "url": "https://www.raise.sg/directory/yoons-traditional-teochew-kueh/"
+  },
+  {
+   "id": 6518,
+   "name": "Will & Well",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/will-well/"
+  },
+  {
+   "id": 6517,
+   "name": "COMEBACK",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    128,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/comeback-pte-ltd/"
+  },
+  {
+   "id": 6509,
+   "name": "ADM Education",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    132
+   ],
+   "beneficiaries": [
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/adm-youth/"
+  },
+  {
+   "id": 6508,
+   "name": "Purnama Outreach",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/purnama/"
+  },
+  {
+   "id": 6501,
+   "name": "@kleansg services",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    131
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/kleansg-services/"
+  },
+  {
+   "id": 6500,
+   "name": "Hey! Chips (Cheung Wo Food Supply SG)",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    126,
+    128,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/cheung-wo-food-supply-sg-pte-ltd/"
+  },
+  {
+   "id": 6496,
+   "name": "Olive Tree",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/olive-tree/"
+  },
+  {
+   "id": 6493,
+   "name": "The Radiant Spectrum",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/the-radiant-spectrum-music-pte-ltd/"
+  },
+  {
+   "id": 6492,
+   "name": "Path Finder Tuition",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/path-finder-tuition/"
+  },
+  {
+   "id": 6491,
+   "name": "IAMinVISIBLE",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/iaminvisible/"
+  },
+  {
+   "id": 6485,
+   "name": "Social Innovation Park Limited",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/social-innovation-park-limited/"
+  },
+  {
+   "id": 6480,
+   "name": "Meetarts",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/meetarts-pte-ltd/"
+  },
+  {
+   "id": 6479,
+   "name": "Healthy Tec",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    129
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/nzmark/"
+  },
+  {
+   "id": 6477,
+   "name": "Yume 圆夢",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/the-dreams-mapper-pte-ltd/"
+  },
+  {
+   "id": 6472,
+   "name": "Hortherapeutics",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/hortherapeutics/"
+  },
+  {
+   "id": 6466,
+   "name": "Our Barehands",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/our-barehands/"
+  },
+  {
+   "id": 6464,
+   "name": "HOWONE INSTITUTE",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    127,
+    128,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/howone/"
+  },
+  {
+   "id": 6461,
+   "name": "Mushroom World Academy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/mushroom-world-academy-pte-ltd/"
+  },
+  {
+   "id": 6459,
+   "name": "HAPPY TUTORS LEARNING CENTRE",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/happy-tutors-learning-centre-pte-ltd/"
+  },
+  {
+   "id": 6457,
+   "name": "Greensquare",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 183,
+   "industry": "Energy, Water & Waste Management",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/greensquare-textile-recycling/"
+  },
+  {
+   "id": 6447,
+   "name": "ARTEASE SG",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/artease-cafe/"
+  },
+  {
+   "id": 6438,
+   "name": "SpedGrow",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/spedgrow-pte-ltd/"
+  },
+  {
+   "id": 6435,
+   "name": "Esports Academy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    128,
+    129
+   ],
+   "beneficiaries": [
+    "Persons with mental health conditions",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/esports-academy-pte-ltd/"
+  },
+  {
+   "id": 6433,
+   "name": "Tri-Sector Associates",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/tri-sector-associates-ltd/"
+  },
+  {
+   "id": 6432,
+   "name": "Singapore Trust Services (STS)",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 190,
+   "industry": "Logistics & Transportation",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    122,
+    124,
+    126
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/singapore-delivery-services-pte-ltd/"
+  },
+  {
+   "id": 6425,
+   "name": "Dexterity Medical & Transport Services",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 190,
+   "industry": "Logistics & Transportation",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    128,
+    130,
+    131,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities",
+    "Single parents",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/dexterity-medical-transport-services-pte-ltd/"
+  },
+  {
+   "id": 6419,
+   "name": "SG Veg Farms",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 197,
+   "industry": "Agriculture",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/sg-veg-farms/"
+  },
+  {
+   "id": 6415,
+   "name": "Skillseed",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/skillseed/"
+  },
+  {
+   "id": 6412,
+   "name": "Peace Peas",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": null,
+   "industry": null,
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/peace-peas/"
+  },
+  {
+   "id": 6411,
+   "name": "PasirPanjangBoy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/pasirpanjangboy/"
+  },
+  {
+   "id": 6406,
+   "name": "DON8URI",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/don8uri/"
+  },
+  {
+   "id": 6405,
+   "name": "FINCARE GLOBAL",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    123,
+    126,
+    127
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Foreign migrant or domestic workers",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/fincare-global-pte-ltd/"
+  },
+  {
+   "id": 6404,
+   "name": "Sinema Media",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    128,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/sinema-media-pte-ltd/"
+  },
+  {
+   "id": 6403,
+   "name": "Red Balloon Therapy",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    127,
+    128,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/red-balloon-therapy/"
+  },
+  {
+   "id": 6400,
+   "name": "Connect Centre",
+   "tierCode": 193,
+   "tier": "Verified Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals"
+   ],
+   "url": "https://www.raise.sg/directory/connect-centre/"
+  },
+  {
+   "id": 6397,
+   "name": "EYEYAH!",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/eyeyah/"
+  },
+  {
+   "id": 6396,
+   "name": "Modesi Designs Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": null,
+   "industry": null,
+   "impact": [],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/modesi/"
+  },
+  {
+   "id": 6388,
+   "name": "Genesis School for Special Education",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/genesis-school-for-special-education-pte-ltd/"
+  },
+  {
+   "id": 6387,
+   "name": "Otolith Enrichment",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    130
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/otolith-enrichment/"
+  },
+  {
+   "id": 6379,
+   "name": "Commenhers LLP",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": null,
+   "industry": null,
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    126,
+    127,
+    128,
+    129,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/commenhers/"
+  },
+  {
+   "id": 6376,
+   "name": "KSC Consultants",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    124,
+    126,
+    128,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/ksc-consultants-pte-ltd/"
+  },
+  {
+   "id": 6375,
+   "name": "10:10 Media Productions",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 181,
+   "industry": "Creative, Media & Publication",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    132
+   ],
+   "beneficiaries": [
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/1010-media-productions-pte-ltd/"
+  },
+  {
+   "id": 6373,
+   "name": "Group AID",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    126,
+    132
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/group-aid-pte-ltd/"
+  },
+  {
+   "id": 6369,
+   "name": "Centre for Psychotherapy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    124,
+    126,
+    128,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/centre-for-psychotherapy-c4p/"
+  },
+  {
+   "id": 6366,
+   "name": "Art For Good",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    130
+   ],
+   "beneficiaries": [
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/art-for-good/"
+  },
+  {
+   "id": 6363,
+   "name": "Real Impact Advisors",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/real-impact-advisors/"
+  },
+  {
+   "id": 6360,
+   "name": "BLOOM IT",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 182,
+   "industry": "Education & Training",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    129
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/bloomit/"
+  },
+  {
+   "id": 6358,
+   "name": "Nyana Nyana Eco",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126
+   ],
+   "beneficiaries": [
+    "Persons from low-income families"
+   ],
+   "url": "https://www.raise.sg/directory/nyananyana-eco/"
+  },
+  {
+   "id": 6357,
+   "name": "Ageing Asia",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 179,
+   "industry": "Business Support Activities",
+   "impact": [
+    "Inclusive employment",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    129
+   ],
+   "beneficiaries": [
+    "Persons with mobility challenges"
+   ],
+   "url": "https://www.raise.sg/directory/ageing-asia-pte-ltd/"
+  },
+  {
+   "id": 6356,
+   "name": "Collective Perspectives",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/collective-perspectives-pte-ltd/"
+  },
+  {
+   "id": 6353,
+   "name": "Castomize Technologies",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 178,
+   "industry": "Beauty & Wellness",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/castomize-technologies/"
+  },
+  {
+   "id": 6349,
+   "name": "Tea Ideas",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    122,
+    127,
+    129,
+    130
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Chronically unemployed persons",
+    "Persons with debilitating health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities"
+   ],
+   "url": "https://www.raise.sg/directory/tea-ideas/"
+  },
+  {
+   "id": 6347,
+   "name": "Smileplus dental surgery",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    121,
+    124,
+    126,
+    128,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Former offenders / incarcerated individuals",
+    "Persons from low-income families",
+    "Persons with mental health conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/smileplus-dental/"
+  },
+  {
+   "id": 6346,
+   "name": "SoundEye",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/soundeye/"
+  },
+  {
+   "id": 6345,
+   "name": "Heart Matters Psychotherapy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 187,
+   "industry": "Health & Social Services",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    127,
+    128,
+    131
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/heart-matters-psychotherapy/"
+  },
+  {
+   "id": 6342,
+   "name": "The Moonbeam Co.",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 186,
+   "industry": "Food & Beverage",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    124,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Former offenders / incarcerated individuals",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/moonbeam/"
+  },
+  {
+   "id": 6328,
+   "name": "Clarie Psychotherapy",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 191,
+   "industry": "Professional Services",
+   "impact": [
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    122,
+    126,
+    127,
+    128,
+    131
+   ],
+   "beneficiaries": [
+    "Chronically unemployed persons",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/clarie-psychotherapy/"
+  },
+  {
+   "id": 6326,
+   "name": "MYPX",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": 177,
+   "industry": "Arts, Sports & Recreation",
+   "impact": [
+    "Inclusive employment",
+    "Inclusive products and services",
+    "Capacity building for social organisations"
+   ],
+   "beneficiaryCodes": [
+    121,
+    126,
+    127,
+    128,
+    129,
+    130,
+    132
+   ],
+   "beneficiaries": [
+    "Caregivers of people with disabilities or chronic conditions",
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Persons with mental health conditions",
+    "Persons with mobility challenges",
+    "Persons with physical or developmental disabilities",
+    "Youth-at-risk"
+   ],
+   "url": "https://www.raise.sg/directory/innervate-fitness/"
+  },
+  {
+   "id": 6325,
+   "name": "Up For Paws",
+   "tierCode": 106,
+   "tier": "Leading",
+   "industryCode": null,
+   "industry": null,
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [],
+   "beneficiaries": [],
+   "url": "https://www.raise.sg/directory/up-for-paws/"
+  },
+  {
+   "id": 6323,
+   "name": "Alfya Atelier",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 184,
+   "industry": "Fashion & Retail",
+   "impact": [
+    "Inclusive employment"
+   ],
+   "beneficiaryCodes": [
+    126,
+    127,
+    131
+   ],
+   "beneficiaries": [
+    "Persons from low-income families",
+    "Persons with debilitating health conditions",
+    "Single parents"
+   ],
+   "url": "https://www.raise.sg/directory/alfya-atelier/"
+  },
+  {
+   "id": 6321,
+   "name": "UEC Hair Studio Pte Ltd",
+   "tierCode": 107,
+   "tier": "Emerging",
+   "industryCode": 178,
+   "industry": "Beauty & Wellness",
+   "impact": [
+    "Inclusive products and services"
+   ],
+   "beneficiaryCodes": [
+    127
+   ],
+   "beneficiaries": [
+    "Persons with debilitating health conditions"
+   ],
+   "url": "https://www.raise.sg/directory/uec-hairstudio/"
+  }
+ ]
+}

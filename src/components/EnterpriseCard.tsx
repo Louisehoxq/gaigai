@@ -68,7 +68,7 @@ export const EnterpriseCard: React.FC<EnterpriseCardProps> = ({
               </span>
             ) : (
               <span className="inline-flex items-center gap-1 text-stone-500 font-medium">
-                <span>raiSE tier: not yet checked</span>
+                <span>{enterprise.raiseNote ? 'Not in raiSE directory' : 'raiSE tier: not yet checked'}</span>
               </span>
             )}
           </div>
@@ -113,6 +113,17 @@ export const EnterpriseCard: React.FC<EnterpriseCardProps> = ({
           <Clock className="w-3.5 h-3.5 text-stone-400 shrink-0" aria-hidden="true" />
           <span className="truncate">{enterprise.openingHours}</span>
         </div>
+        {enterprise.raiseNote && (
+          <p className="text-[11px] text-amber-800">
+            {enterprise.raiseNote}
+            {enterprise.raiseUrl && (
+              <>
+                {' '}
+                <a href={enterprise.raiseUrl} target="_blank" rel="noopener noreferrer" className="underline">raiSE record</a>
+              </>
+            )}
+          </p>
+        )}
         <p className="text-[11px] text-stone-400">
           Sample details, unverified. Check with the venue before visiting.
         </p>
