@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { SocialEnterprise } from '../types';
+import { track, trackedUrl } from '../lib/track';
 import { 
   X, 
   Trash2, 
@@ -185,7 +186,8 @@ export const TrailDrawer: React.FC<TrailDrawerProps> = ({
                     {item.causeLabel}
                   </span>
                   <a
-                    href={item.website}
+                    href={trackedUrl(item, 'trail')}
+                    onClick={() => track('outbound_click', item.id, { medium: 'trail' })}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-rose-600 hover:text-rose-700 font-semibold"

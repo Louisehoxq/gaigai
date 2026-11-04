@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { SocialEnterprise, Category, BeneficiaryGroup } from '../types';
 import { GroupOptions, matchesGroup } from '../data/groups';
+import { track, trackedUrl } from '../lib/track';
 import { 
   Coffee, 
   Heart, 
@@ -420,7 +421,8 @@ export const SingaporeMap: React.FC<SingaporeMapProps> = ({
 
             <div className="mt-3 flex items-center gap-2">
               <a
-                href={selectedEnterprise.website}
+                href={trackedUrl(selectedEnterprise, 'map')}
+                onClick={() => track('outbound_click', selectedEnterprise.id, { medium: 'map' })}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 py-1.5 px-2.5 text-xs font-semibold text-rose-700 bg-rose-50 hover:bg-rose-100 rounded-lg transition-colors flex items-center justify-center gap-1 focus-visible:ring-2 focus-visible:ring-rose-600"
