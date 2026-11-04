@@ -52,7 +52,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
             For Purposeful Seekers &amp; Weekend Explorers
           </h3>
           <p className="text-xs sm:text-sm text-stone-600 leading-relaxed">
-            Whether you want a great cup of specialty flat white, a rejuvenating acupressure massage, unique handcrafted gifts, or an inclusive outdoor run, you have the agency to choose quality goods and services that directly empower persons with disabilities, single mothers, and seniors.
+            Whether you want a great cup of specialty flat white, a rejuvenating acupressure massage, unique handcrafted gifts, or an inclusive outdoor run, you have the agency to choose quality goods and services from enterprises that employ persons with disabilities, single mothers, and seniors.
           </p>
           <button
             onClick={onExploreMap}
@@ -71,11 +71,11 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
             For Social Entrepreneurs &amp; Impact Leaders
           </h3>
           <p className="text-xs sm:text-sm text-stone-600 leading-relaxed">
-            Social enterprises face high overheads and need sustainable, repeating revenue streams. GaiGai gives them islandwide visibility, a direct channel to receive verified PayNow donations, and real-time Google Reviews integration to monitor customer sentiment and scale impact.
+            Social enterprises face high overheads and need sustainable, repeating revenue streams. GaiGai aims to give them islandwide visibility and a steady stream of repeat customers. A pilot with a small group of enterprises will test whether it does.
           </p>
           <div className="text-xs font-bold text-emerald-800 pt-1 flex items-center gap-1">
             <ShieldCheck className="w-4 h-4 text-emerald-600" />
-            <span>Integrated with raiSE Social Impact Framework</span>
+            <span>Uses the public raiSE directory (not affiliated)</span>
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
               <span>Artisan Gifts &amp; Heritage</span>
             </div>
             <p className="text-xs text-stone-600 leading-relaxed">
-              Discover handmade amigurumi plushies by senior crafters at <strong>TeddyThotz</strong> or designer accessories featuring artwork by autistic artists at <strong>The Art Faculty</strong> where artists earn direct royalties.
+              Discover handmade amigurumi plushies by senior crafters at <strong>TeddyThotz</strong> or designer accessories featuring artwork by autistic artists at <strong>The Art Faculty</strong>.
             </p>
           </div>
 

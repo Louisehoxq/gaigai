@@ -25,8 +25,6 @@ interface TrailDrawerProps {
   onMoveUp: (index: number) => void;
   onMoveDown: (index: number) => void;
   onClearTrail: () => void;
-  onOpenStory: (enterprise: SocialEnterprise) => void;
-  onOpenDonation: (enterprise: SocialEnterprise) => void;
 }
 
 export const TrailDrawer: React.FC<TrailDrawerProps> = ({
@@ -37,8 +35,6 @@ export const TrailDrawer: React.FC<TrailDrawerProps> = ({
   onMoveUp,
   onMoveDown,
   onClearTrail,
-  onOpenStory,
-  onOpenDonation,
 }) => {
   const [copiedLink, setCopiedLink] = useState(false);
 
@@ -52,9 +48,6 @@ export const TrailDrawer: React.FC<TrailDrawerProps> = ({
     '5:30 PM · Therapeutic Wellness / Relaxation',
     '7:30 PM · Dinner & Community Connections'
   ];
-
-  // Calculate estimated spend per stop
-  const estimatedSpend = trailEnterprises.length * 25;
 
   const handleShareTrail = () => {
     navigator.clipboard.writeText(window.location.href);
@@ -99,24 +92,16 @@ export const TrailDrawer: React.FC<TrailDrawerProps> = ({
           </button>
         </div>
 
-        {/* Cumulative Community Impact Card */}
+        {/* Trail summary: facts only, no estimated impact figures */}
         {trailEnterprises.length > 0 && (
-          <div className="p-4 mx-4 mt-4 bg-gradient-to-br from-rose-50/80 via-emerald-50/50 to-amber-50/80 border border-rose-200/60 rounded-2xl">
-            <div className="flex items-center gap-1.5 text-xs font-bold text-rose-800 uppercase tracking-wider mb-1">
-              <Sparkles className="w-4 h-4 text-rose-600" />
-              <span>Your Estimated Weekend Social Return</span>
-            </div>
-            <p className="text-xs text-stone-700 leading-relaxed">
-              By visiting these <strong>{trailEnterprises.length} social enterprises</strong>, you are directing ~<strong>${estimatedSpend} SGD</strong> in ethical commerce directly into wages, training, and royalties for disadvantaged communities in Singapore.
+          <div className="p-4 mx-4 mt-4 bg-stone-50 border border-stone-200 rounded-2xl text-xs text-stone-700">
+            <span className="font-semibold">
+              {trailEnterprises.length} {trailEnterprises.length === 1 ? 'stop' : 'stops'}
+            </span>
+            <span className="text-stone-500"> · about {trailEnterprises.length * 1.5} hrs</span>
+            <p className="mt-1 text-[11px] text-stone-500">
+              Opening hours are sample data. Check each venue before you go.
             </p>
-            <div className="mt-2.5 pt-2 border-t border-rose-200/50 flex items-center justify-between text-xs text-stone-600">
-              <span className="font-semibold text-emerald-800">
-                ✓ 100% raiSE Verified Impact
-              </span>
-              <span className="font-medium text-stone-500">
-                ~{trailEnterprises.length * 1.5} hrs of leisure
-              </span>
-            </div>
           </div>
         )}
 
@@ -197,23 +182,16 @@ export const TrailDrawer: React.FC<TrailDrawerProps> = ({
                 {/* Suggested Action & Buttons */}
                 <div className="pt-2 border-t border-stone-200/60 flex items-center justify-between text-xs">
                   <span className="text-[11px] font-semibold text-emerald-800">
-                    ★ {item.googleRating} · {item.impactMetrics.primaryNumber} {item.impactMetrics.primaryLabel}
+                    {item.causeLabel}
                   </span>
-                  <div className="flex items-center gap-2">
-                    <button
-                      onClick={() => onOpenStory(item)}
-                      className="text-stone-600 hover:text-rose-600 font-medium"
-                    >
-                      Story
-                    </button>
-                    <span className="text-stone-300">·</span>
-                    <button
-                      onClick={() => onOpenDonation(item)}
-                      className="text-rose-600 hover:text-rose-700 font-semibold"
-                    >
-                      Support
-                    </button>
-                  </div>
+                  <a
+                    href={item.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-rose-600 hover:text-rose-700 font-semibold"
+                  >
+                    Website
+                  </a>
                 </div>
               </div>
             ))

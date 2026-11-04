@@ -1,20 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { 
   SocialEnterprise, 
-  DonationRecord, 
   Category, 
   BeneficiaryCause 
 } from './types';
-import { SOCIAL_ENTERPRISES, INITIAL_DONATION_RECORDS } from './data/socialEnterprises';
+import { SOCIAL_ENTERPRISES } from './data/socialEnterprises';
 import { Navbar } from './components/Navbar';
 import { SingaporeGoogleMap } from './components/SingaporeGoogleMap';
 import { SingaporeMap } from './components/SingaporeMap';
 import { SearchFilterBar } from './components/SearchFilterBar';
 import { EnterpriseCard } from './components/EnterpriseCard';
-import { StoryModal } from './components/StoryModal';
 import { TrailDrawer } from './components/TrailDrawer';
-import { DonationModal } from './components/DonationModal';
-import { EnterpriseDashboard } from './components/EnterpriseDashboard';
 import { AboutSection } from './components/AboutSection';
 import { Footer } from './components/Footer';
 import { PeranakanDivider } from './components/PeranakanDivider';
@@ -29,13 +25,23 @@ import {
   Activity, 
   ShieldCheck, 
   Users, 
-  DollarSign,
   ArrowRight,
   BookmarkPlus,
   Layers
 } from 'lucide-react';
 
 export default function App() {
+  // Drop data persisted by earlier prototype versions (it contained invented
+  // reviews, donations and metrics that would otherwise survive code fixes).
+  useEffect(() => {
+    try {
+      localStorage.removeItem('gaigai_enterprises');
+      localStorage.removeItem('gaigai_donations');
+    } catch {
+      /* storage unavailable: nothing to clean */
+    }
+  }, []);
+
   // Google Maps Quota State
   const [quotaExceeded, setQuotaExceeded] = useState<boolean>(false);
 
@@ -45,58 +51,9 @@ export default function App() {
     return () => window.removeEventListener('gmp-quota-exceeded', handleQuota);
   }, []);
 
-  // Persistent or default enterprises with deep coordinate validation
-  const [enterprises, setEnterprises] = useState<SocialEnterprise[]>(() => {
-    try {
-      const saved = localStorage.getItem('gaigai_enterprises');
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        if (Array.isArray(parsed) && parsed.length > 0) {
-          return parsed.map((item) => {
-            const defaultItem = SOCIAL_ENTERPRISES.find((s) => s.id === item.id);
-            const rawLat = parseFloat(String(item.lat));
-            const rawLng = parseFloat(String(item.lng));
-            const rawMapX = parseFloat(String(item.mapX));
-            const rawMapY = parseFloat(String(item.mapY));
-
-            const validLat = Number.isFinite(rawLat) && rawLat > 1.0 && rawLat < 1.6
-              ? rawLat
-              : (defaultItem?.lat ?? 1.3521);
-            const validLng = Number.isFinite(rawLng) && rawLng > 103.5 && rawLng < 104.2
-              ? rawLng
-              : (defaultItem?.lng ?? 103.8198);
-            const validMapX = Number.isFinite(rawMapX) ? rawMapX : (defaultItem?.mapX ?? 50);
-            const validMapY = Number.isFinite(rawMapY) ? rawMapY : (defaultItem?.mapY ?? 50);
-
-            return {
-              ...(defaultItem || {}),
-              ...item,
-              lat: validLat,
-              lng: validLng,
-              mapX: validMapX,
-              mapY: validMapY,
-              offerings: Array.isArray(item.offerings) ? item.offerings : (defaultItem?.offerings ?? []),
-              storyChapters: Array.isArray(item.storyChapters) ? item.storyChapters : (defaultItem?.storyChapters ?? []),
-              googleReviews: Array.isArray(item.googleReviews) ? item.googleReviews : (defaultItem?.googleReviews ?? []),
-            };
-          });
-        }
-      }
-      return SOCIAL_ENTERPRISES;
-    } catch {
-      return SOCIAL_ENTERPRISES;
-    }
-  });
-
-  // Persistent donation records
-  const [donationRecords, setDonationRecords] = useState<DonationRecord[]>(() => {
-    try {
-      const saved = localStorage.getItem('gaigai_donations');
-      return saved ? JSON.parse(saved) : INITIAL_DONATION_RECORDS;
-    } catch {
-      return INITIAL_DONATION_RECORDS;
-    }
-  });
+  // Enterprises come from the data file. They are not persisted in the browser:
+  // persisting copies made old (invented) fields survive data fixes.
+  const [enterprises] = useState<SocialEnterprise[]>(SOCIAL_ENTERPRISES);
 
   // Weekend trail saved enterprise IDs
   const [trailIds, setTrailIds] = useState<string[]>(() => {
@@ -109,10 +66,8 @@ export default function App() {
   });
 
   // Navigation states
-  const [currentTab, setCurrentTab] = useState<'map' | 'directory' | 'stories' | 'about'>('map');
-  const [isEnterpriseMode, setIsEnterpriseMode] = useState<boolean>(false);
+  const [currentTab, setCurrentTab] = useState<'map' | 'directory' | 'about'>('map');
   const [selectedEnterpriseId, setSelectedEnterpriseId] = useState<string>(enterprises[0]?.id || 'foreword-coffee');
-  const [portalEnterpriseId, setPortalEnterpriseId] = useState<string>(enterprises[0]?.id || 'foreword-coffee');
 
   // Map engine toggle: default to google maps
   const [useGoogleMaps, setUseGoogleMaps] = useState<boolean>(true);
@@ -124,31 +79,9 @@ export default function App() {
   const [searchQuery, setSearchQuery] = useState<string>('');
 
   // Modals
-  const [isStoryModalOpen, setIsStoryModalOpen] = useState<boolean>(false);
-  const [activeStoryEnterprise, setActiveStoryEnterprise] = useState<SocialEnterprise | null>(null);
-
-  const [isDonationModalOpen, setIsDonationModalOpen] = useState<boolean>(false);
-  const [activeDonationEnterprise, setActiveDonationEnterprise] = useState<SocialEnterprise | null>(null);
-
   const [isTrailDrawerOpen, setIsTrailDrawerOpen] = useState<boolean>(false);
 
   // Sync state to localStorage
-  useEffect(() => {
-    try {
-      localStorage.setItem('gaigai_enterprises', JSON.stringify(enterprises));
-    } catch (e) {
-      console.error('Failed to sync enterprises', e);
-    }
-  }, [enterprises]);
-
-  useEffect(() => {
-    try {
-      localStorage.setItem('gaigai_donations', JSON.stringify(donationRecords));
-    } catch (e) {
-      console.error('Failed to sync donations', e);
-    }
-  }, [donationRecords]);
-
   useEffect(() => {
     try {
       localStorage.setItem('gaigai_trail_ids', JSON.stringify(trailIds));
@@ -188,59 +121,6 @@ export default function App() {
     setTrailIds([]);
   };
 
-  // Enterprise update in portal with coordinate preservation
-  const handleUpdateEnterprise = (updated: SocialEnterprise) => {
-    const defaultItem = SOCIAL_ENTERPRISES.find((s) => s.id === updated.id);
-    const rawLat = parseFloat(String(updated.lat));
-    const rawLng = parseFloat(String(updated.lng));
-    const safeUpdated: SocialEnterprise = {
-      ...updated,
-      lat: Number.isFinite(rawLat) ? rawLat : (defaultItem?.lat ?? 1.3521),
-      lng: Number.isFinite(rawLng) ? rawLng : (defaultItem?.lng ?? 103.8198),
-      mapX: Number.isFinite(Number(updated.mapX)) ? Number(updated.mapX) : (defaultItem?.mapX ?? 50),
-      mapY: Number.isFinite(Number(updated.mapY)) ? Number(updated.mapY) : (defaultItem?.mapY ?? 50),
-    };
-    setEnterprises((prev) =>
-      prev.map((item) => (item.id === safeUpdated.id ? safeUpdated : item))
-    );
-  };
-
-  // Review reply handler
-  const handleAddReviewResponse = (
-    enterpriseId: string,
-    reviewId: string,
-    response: string
-  ) => {
-    setEnterprises((prev) =>
-      prev.map((ent) => {
-        if (ent.id !== enterpriseId) return ent;
-        return {
-          ...ent,
-          googleReviews: ent.googleReviews.map((r) =>
-            r.id === reviewId ? { ...r, ownerResponse: response } : r
-          ),
-        };
-      })
-    );
-  };
-
-  // Donation success handler
-  const handleDonationSuccess = (newRecord: DonationRecord) => {
-    setDonationRecords((prev) => [newRecord, ...prev]);
-    // Increment raised funds for target enterprise
-    setEnterprises((prev) =>
-      prev.map((ent) => {
-        if (ent.id === newRecord.enterpriseId) {
-          return {
-            ...ent,
-            currentRaised: ent.currentRaised + newRecord.amount,
-          };
-        }
-        return ent;
-      })
-    );
-  };
-
   // Filtered enterprises based on category, cause, neighborhood, and search query
   const filteredEnterprises = enterprises.filter((item) => {
     const matchCategory = selectedCategory === 'all' || item.category === selectedCategory;
@@ -258,7 +138,7 @@ export default function App() {
       item.district.toLowerCase().includes(q) ||
       item.address.toLowerCase().includes(q) ||
       item.causeLabel.toLowerCase().includes(q) ||
-      item.offerings.some((o) => o.name.toLowerCase().includes(q) || o.description.toLowerCase().includes(q));
+      item.description.toLowerCase().includes(q);
 
     return matchCategory && matchCause && matchNeighborhood && matchSearch;
   });
@@ -270,12 +150,15 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#FAF8F5] text-slate-900 flex flex-col font-sans">
+      {/* Prototype notice */}
+      <div role="note" className="bg-amber-50 border-b border-amber-200 text-amber-900 px-4 py-1.5 text-[11px] sm:text-xs text-center">
+        Prototype with sample data. Addresses, hours and descriptions are unverified; check with each venue.
+      </div>
+
       {/* Top Navbar */}
       <Navbar
         currentTab={currentTab}
         setCurrentTab={setCurrentTab}
-        isEnterpriseMode={isEnterpriseMode}
-        setIsEnterpriseMode={setIsEnterpriseMode}
         trailCount={trailIds.length}
         openTrailDrawer={() => setIsTrailDrawerOpen(true)}
       />
@@ -300,17 +183,7 @@ export default function App() {
 
       {/* Main Content Area */}
       <main className="flex-1" role="main">
-        {isEnterpriseMode ? (
-          /* Enterprise Partner Management Portal */
-          <EnterpriseDashboard
-            enterprises={enterprises}
-            selectedEnterpriseId={portalEnterpriseId}
-            onSelectEnterprise={setPortalEnterpriseId}
-            donationRecords={donationRecords}
-            onUpdateEnterprise={handleUpdateEnterprise}
-            onAddReviewResponse={handleAddReviewResponse}
-          />
-        ) : (
+        {(
           /* Consumer Discovery View */
           <div>
             {/* Singapore Civic Hero Banner */}
@@ -338,7 +211,7 @@ export default function App() {
                   </h1>
 
                   <p className="text-base sm:text-lg text-stone-600 leading-relaxed font-normal">
-                    Explore verified local social enterprises across F&amp;B, wellness, artisan gifts, and sports. Have the agency to string together a meaningful weekend GaiGai trail where every dollar directly supports disadvantaged communities.
+                    Explore local social enterprises that employ people who are often left out of work, across F&amp;B, wellness, artisan gifts and sports. Bookmark places and string together a weekend trail.
                   </p>
 
                   {/* Search and Multi-Facet Filters */}
@@ -364,17 +237,12 @@ export default function App() {
 
                   {/* Singapore Civic Trust Metric Strip */}
                   <div className="pt-3 border-t border-stone-100 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-stone-500 font-medium">
-                    <span className="flex items-center gap-1.5 text-emerald-800 font-semibold">
-                      <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                      <span>10 raiSE Verified Enterprises</span>
-                    </span>
-                    <span className="flex items-center gap-1.5 text-rose-700 font-semibold">
-                      <Heart className="w-4 h-4 text-rose-600" />
-                      <span>100% Inclusive Employment</span>
-                    </span>
                     <span className="flex items-center gap-1.5 text-slate-800 font-semibold">
-                      <DollarSign className="w-4 h-4 text-amber-600" />
-                      <span className="tabular-nums">${enterprises.reduce((acc, curr) => acc + curr.currentRaised, 0).toLocaleString()} SGD Raised</span>
+                      <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                      <span className="tabular-nums">{enterprises.length} sample enterprises</span>
+                    </span>
+                    <span className="flex items-center gap-1.5 text-stone-600">
+                      <span>Prototype: details are unverified. Check with each venue.</span>
                     </span>
                   </div>
                 </div>
@@ -470,10 +338,6 @@ export default function App() {
                     setSelectedCategory={setSelectedCategory}
                     selectedCause={selectedCause}
                     setSelectedCause={setSelectedCause}
-                    onOpenStory={(ent) => {
-                      setActiveStoryEnterprise(ent);
-                      setIsStoryModalOpen(true);
-                    }}
                     onAddToTrail={handleToggleTrail}
                     isInTrail={(id) => trailIds.includes(id)}
                     onFallbackToVector={() => setUseGoogleMaps(false)}
@@ -488,10 +352,6 @@ export default function App() {
                     setSelectedCategory={setSelectedCategory}
                     selectedCause={selectedCause}
                     setSelectedCause={setSelectedCause}
-                    onOpenStory={(ent) => {
-                      setActiveStoryEnterprise(ent);
-                      setIsStoryModalOpen(true);
-                    }}
                     onAddToTrail={handleToggleTrail}
                     isInTrail={(id) => trailIds.includes(id)}
                   />
@@ -526,15 +386,7 @@ export default function App() {
                         isSelected={selectedEnterpriseId === enterprise.id}
                         isInTrail={trailIds.includes(enterprise.id)}
                         onSelect={() => setSelectedEnterpriseId(enterprise.id)}
-                        onOpenStory={() => {
-                          setActiveStoryEnterprise(enterprise);
-                          setIsStoryModalOpen(true);
-                        }}
                         onAddToTrail={() => handleToggleTrail(enterprise)}
-                        onOpenDonation={() => {
-                          setActiveDonationEnterprise(enterprise);
-                          setIsDonationModalOpen(true);
-                        }}
                       />
                     ))}
                   </div>
@@ -634,83 +486,8 @@ export default function App() {
                       isSelected={selectedEnterpriseId === enterprise.id}
                       isInTrail={trailIds.includes(enterprise.id)}
                       onSelect={() => setSelectedEnterpriseId(enterprise.id)}
-                      onOpenStory={() => {
-                        setActiveStoryEnterprise(enterprise);
-                        setIsStoryModalOpen(true);
-                      }}
                       onAddToTrail={() => handleToggleTrail(enterprise)}
-                      onOpenDonation={() => {
-                        setActiveDonationEnterprise(enterprise);
-                        setIsDonationModalOpen(true);
-                      }}
                     />
-                  ))}
-                </div>
-              </div>
-            )}
-
-            {/* Tab 3: Animated Stories Showcase */}
-            {currentTab === 'stories' && (
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
-                <div className="text-center max-w-2xl mx-auto space-y-2">
-                  <div className="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-50 border border-amber-200 rounded-full text-xs font-bold text-amber-800">
-                    <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-                    <span>Animated Impact Chronicles</span>
-                  </div>
-                  <h2 className="text-3xl font-extrabold text-slate-900 tracking-tight">
-                    Behind the Counter: Stories of Dignity &amp; Purpose
-                  </h2>
-                  <p className="text-xs sm:text-sm text-stone-600">
-                    Step inside the daily journeys of inclusive baristas, elderly artisans, and differently-abled entrepreneurs creating a kinder Singapore.
-                  </p>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                  {enterprises.map((enterprise) => (
-                    <div 
-                      key={enterprise.id}
-                      className="bg-white rounded-2xl border border-stone-200 p-6 flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow group"
-                    >
-                      <div>
-                        <div className="flex items-center justify-between text-xs text-stone-500 mb-2">
-                          <span className="font-semibold text-rose-700 uppercase">
-                            {enterprise.category.toUpperCase()}
-                          </span>
-                          <span>{enterprise.storyChapters.length} Chapters</span>
-                        </div>
-
-                        <h3 className="text-xl font-bold text-slate-900 group-hover:text-rose-600 transition-colors">
-                          {enterprise.name}
-                        </h3>
-
-                        <p className="text-xs text-stone-600 mt-2 line-clamp-3 leading-relaxed">
-                          {enterprise.storyChapters[0]?.narrative || enterprise.description}
-                        </p>
-
-                        {enterprise.storyChapters[0]?.quote && (
-                          <div className="mt-4 p-3 bg-stone-50 rounded-xl border border-stone-200/80 text-xs italic text-stone-700">
-                            "{enterprise.storyChapters[0].quote}"
-                          </div>
-                        )}
-                      </div>
-
-                      <div className="mt-6 pt-4 border-t border-stone-100 flex items-center justify-between">
-                        <span className="text-xs font-bold text-emerald-800">
-                          {enterprise.impactMetrics.primaryNumber} {enterprise.impactMetrics.primaryLabel}
-                        </span>
-
-                        <button
-                          onClick={() => {
-                            setActiveStoryEnterprise(enterprise);
-                            setIsStoryModalOpen(true);
-                          }}
-                          className="py-2 px-3 text-xs font-bold text-white bg-rose-600 hover:bg-rose-700 rounded-lg transition-colors flex items-center gap-1 shadow-sm"
-                        >
-                          <Sparkles className="w-3.5 h-3.5" />
-                          <span>View Story</span>
-                        </button>
-                      </div>
-                    </div>
                   ))}
                 </div>
               </div>
@@ -729,36 +506,8 @@ export default function App() {
 
       {/* Global Footer */}
       <Footer
-        onNavigate={(tab) => {
-          setIsEnterpriseMode(false);
-          setCurrentTab(tab);
-        }}
-        onOpenEnterprise={() => setIsEnterpriseMode(true)}
+        onNavigate={(tab) => setCurrentTab(tab)}
       />
-
-      {/* Animated Story Modal */}
-      {isStoryModalOpen && activeStoryEnterprise && (
-        <StoryModal
-          enterprise={activeStoryEnterprise}
-          onClose={() => setIsStoryModalOpen(false)}
-          onAddToTrail={handleToggleTrail}
-          isInTrail={trailIds.includes(activeStoryEnterprise.id)}
-          onOpenDonation={(ent) => {
-            setActiveDonationEnterprise(ent);
-            setIsDonationModalOpen(true);
-          }}
-        />
-      )}
-
-      {/* Direct Impact Donation Modal */}
-      {isDonationModalOpen && (
-        <DonationModal
-          enterprise={activeDonationEnterprise}
-          allEnterprises={enterprises}
-          onClose={() => setIsDonationModalOpen(false)}
-          onSuccess={handleDonationSuccess}
-        />
-      )}
 
       {/* Weekend GaiGai Trail Drawer */}
       <TrailDrawer
@@ -769,14 +518,6 @@ export default function App() {
         onMoveUp={handleMoveTrailUp}
         onMoveDown={handleMoveTrailDown}
         onClearTrail={handleClearTrail}
-        onOpenStory={(ent) => {
-          setActiveStoryEnterprise(ent);
-          setIsStoryModalOpen(true);
-        }}
-        onOpenDonation={(ent) => {
-          setActiveDonationEnterprise(ent);
-          setIsDonationModalOpen(true);
-        }}
       />
     </div>
   );

@@ -3,11 +3,10 @@ import { BrandLogo } from './BrandLogo';
 import { Heart, ShieldCheck, MapPin } from 'lucide-react';
 
 interface FooterProps {
-  onNavigate: (tab: 'map' | 'directory' | 'stories' | 'about') => void;
-  onOpenEnterprise: () => void;
+  onNavigate: (tab: 'map' | 'directory' | 'about') => void;
 }
 
-export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnterprise }) => {
+export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   return (
     <footer className="bg-white border-t border-stone-200 mt-20 text-stone-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -16,11 +15,11 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnterprise }) 
           <div className="md:col-span-2 space-y-3">
             <BrandLogo size="md" showTagline={true} />
             <p className="text-xs text-stone-500 leading-relaxed max-w-sm">
-              GaiGai is a Singapore civic platform celebrating local social enterprises. We empower conscious consumers to spend meaningfully across F&amp;B, wellness, gifts, and experiences while providing social businesses with visibility, verified PayNow donations, and real-time Google Reviews analytics.
+              GaiGai is a Singapore civic platform celebrating local social enterprises. We empower conscious consumers to spend meaningfully across F&amp;B, wellness, gifts, and experiences while giving social businesses more visibility. This is an independent prototype with sample data.
             </p>
             <div className="flex items-center gap-2 text-xs text-emerald-800 font-semibold pt-1">
               <ShieldCheck className="w-4 h-4 text-emerald-600" />
-              <span>Aligned with raiSE (Singapore Centre for Social Enterprise) Standards</span>
+              <span>Not affiliated with raiSE. Tiers shown come from the public raiSE directory.</span>
             </div>
           </div>
 
@@ -48,14 +47,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnterprise }) 
               </li>
               <li>
                 <button 
-                  onClick={() => onNavigate('stories')} 
-                  className="hover:text-rose-600 transition-colors"
-                >
-                  Animated Impact Stories
-                </button>
-              </li>
-              <li>
-                <button 
                   onClick={() => onNavigate('about')} 
                   className="hover:text-rose-600 transition-colors"
                 >
@@ -71,19 +62,8 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onOpenEnterprise }) 
               For Social Enterprises
             </h4>
             <ul className="space-y-1.5 text-xs">
-              <li>
-                <button 
-                  onClick={onOpenEnterprise} 
-                  className="font-semibold text-rose-600 hover:text-rose-700 transition-colors"
-                >
-                  Enterprise Partner Portal →
-                </button>
-              </li>
-              <li className="text-stone-400">
-                Live Donation Stream &amp; Trends
-              </li>
-              <li className="text-stone-400">
-                Google Reviews &amp; Feedback Hub
+              <li className="text-stone-500">
+                Interested in being listed? A pilot is being planned.
               </li>
               <li className="text-[11px] text-stone-400 pt-2">
                 Built to axe-core &amp; WCAG 2.1 AA Accessibility Standards.

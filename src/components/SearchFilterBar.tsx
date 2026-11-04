@@ -449,7 +449,7 @@ export const SearchFilterBar: React.FC<SearchFilterBarProps> = ({
                 <div className="py-10 text-center space-y-3">
                   <Loader2 className="w-8 h-8 animate-spin text-rose-600 mx-auto" />
                   <p className="text-xs text-stone-500">
-                    Retrieving verified place details from Google Maps Platform...
+                    Retrieving place details from Google Maps Platform...
                   </p>
                 </div>
               )}
@@ -464,7 +464,7 @@ export const SearchFilterBar: React.FC<SearchFilterBarProps> = ({
                   {groundingResult.chunks.length > 0 && (
                     <div className="space-y-2 pt-2 border-t border-stone-200">
                       <span className="text-xs font-bold text-stone-500 uppercase tracking-wider block">
-                        Verified Google Maps Places:
+                        Google Maps results:
                       </span>
                       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                         {groundingResult.chunks.map((chunk, idx) => {

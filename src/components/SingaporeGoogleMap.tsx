@@ -14,7 +14,6 @@ import {
   Activity, 
   MapPin, 
   Navigation, 
-  Sparkles, 
   CheckCircle2, 
   Filter,
   ExternalLink
@@ -28,7 +27,6 @@ interface SingaporeGoogleMapProps {
   setSelectedCategory: (cat: Category | 'all') => void;
   selectedCause: BeneficiaryCause | 'all';
   setSelectedCause: (cause: BeneficiaryCause | 'all') => void;
-  onOpenStory: (enterprise: SocialEnterprise) => void;
   onAddToTrail: (enterprise: SocialEnterprise) => void;
   isInTrail: (enterpriseId: string) => boolean;
   onFallbackToVector?: () => void;
@@ -45,7 +43,6 @@ export const SingaporeGoogleMap: React.FC<SingaporeGoogleMapProps> = ({
   setSelectedCategory,
   selectedCause,
   setSelectedCause,
-  onOpenStory,
   onAddToTrail,
   isInTrail,
   onFallbackToVector,
@@ -315,7 +312,6 @@ export const SingaporeGoogleMap: React.FC<SingaporeGoogleMapProps> = ({
                       <span className="font-semibold text-rose-600 uppercase">
                         {activeEnterprise.category.toUpperCase()}
                       </span>
-                      <span>★ {activeEnterprise.googleRating} ({activeEnterprise.reviewCount})</span>
                     </div>
 
                     <p className="text-xs text-stone-600 leading-snug">
@@ -328,13 +324,14 @@ export const SingaporeGoogleMap: React.FC<SingaporeGoogleMapProps> = ({
                     </div>
 
                     <div className="pt-1 flex items-center gap-2">
-                      <button
-                        onClick={() => onOpenStory(activeEnterprise)}
+                      <a
+                        href={activeEnterprise.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="flex-1 py-1 px-2 text-[11px] font-semibold text-rose-700 bg-rose-50 hover:bg-rose-100 rounded transition-colors flex items-center justify-center gap-1"
                       >
-                        <Sparkles className="w-3 h-3" />
-                        <span>Story</span>
-                      </button>
+                        <span>Website</span>
+                      </a>
 
                       <button
                         onClick={() => onAddToTrail(activeEnterprise)}
@@ -368,7 +365,6 @@ export const SingaporeGoogleMap: React.FC<SingaporeGoogleMapProps> = ({
         <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur-sm p-3 rounded-xl border border-stone-200 shadow-md text-xs space-y-1.5 hidden sm:block z-10 pointer-events-auto">
           <div className="font-semibold text-stone-800 pb-1 border-b border-stone-100 flex items-center justify-between gap-4">
             <span>Google Maps Singapore</span>
-            <span className="text-[10px] text-emerald-800 bg-emerald-50 px-1.5 py-0.2 rounded font-medium">raiSE Verified</span>
           </div>
           <div className="flex items-center gap-2 text-stone-600">
             <span className="w-2.5 h-2.5 rounded-full bg-rose-600 inline-block" />
