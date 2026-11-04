@@ -5,6 +5,8 @@ import {
   BeneficiaryCause 
 } from './types';
 import { SOCIAL_ENTERPRISES } from './data/socialEnterprises';
+import { attachRaise } from './data/raise';
+import { RaiseDirectory } from './components/RaiseDirectory';
 import { Navbar } from './components/Navbar';
 import { SingaporeGoogleMap } from './components/SingaporeGoogleMap';
 import { SingaporeMap } from './components/SingaporeMap';
@@ -53,7 +55,7 @@ export default function App() {
 
   // Enterprises come from the data file. They are not persisted in the browser:
   // persisting copies made old (invented) fields survive data fixes.
-  const [enterprises] = useState<SocialEnterprise[]>(SOCIAL_ENTERPRISES);
+  const [enterprises] = useState<SocialEnterprise[]>(() => attachRaise(SOCIAL_ENTERPRISES));
 
   // Weekend trail saved enterprise IDs
   const [trailIds, setTrailIds] = useState<string[]>(() => {
@@ -66,7 +68,7 @@ export default function App() {
   });
 
   // Navigation states
-  const [currentTab, setCurrentTab] = useState<'map' | 'directory' | 'about'>('map');
+  const [currentTab, setCurrentTab] = useState<'map' | 'directory' | 'raise' | 'about'>('map');
   const [selectedEnterpriseId, setSelectedEnterpriseId] = useState<string>(enterprises[0]?.id || 'foreword-coffee');
 
   // Map engine toggle: default to google maps
@@ -275,6 +277,18 @@ export default function App() {
                   >
                     <Compass className="w-3.5 h-3.5" />
                     <span>All Places ({filteredEnterprises.length})</span>
+                  </button>
+
+                  <button
+                    onClick={() => setCurrentTab('raise')}
+                    className={`px-4 py-2 text-xs font-bold rounded-xl transition-colors flex items-center gap-1.5 focus-visible:ring-2 focus-visible:ring-rose-600 ${
+                      currentTab === 'raise'
+                        ? 'bg-stone-900 text-white shadow-sm'
+                        : 'bg-white text-stone-700 border border-stone-200 hover:bg-stone-100'
+                    }`}
+                  >
+                    <ShieldCheck className="w-3.5 h-3.5" />
+                    <span>raiSE Directory</span>
                   </button>
 
                   <button
@@ -492,6 +506,9 @@ export default function App() {
                 </div>
               </div>
             )}
+
+            {/* Tab: raiSE directory snapshot */}
+            {currentTab === 'raise' && <RaiseDirectory />}
 
             {/* Tab 4: About Section */}
             {currentTab === 'about' && (

@@ -16,7 +16,9 @@ A discovery prototype for Singapore social enterprises (SEs) that employ people 
 ## Data
 
 * `src/data/socialEnterprises.ts` holds **10 hand-entered sample records**. Names, websites and categories are real organisations. Addresses, coordinates, opening hours, MRT walking times and descriptions have **not** been checked.
-* The `raiseTier` and `raiseCheckedOn` fields are `null` until filled from the public raiSE directory (Phase 1 of `FIX_PLAN.md`). The app shows "not yet checked" rather than a badge.
+* `data/raise-directory.tsv` is a snapshot of the public raiSE directory (358 social enterprise members, taken 2026-11-05). `node scripts/build-raise.mjs` turns it into `src/data/raiseDirectory.json`, which the app reads. To refresh it, run `node scripts/fetch-raise.mjs` on a machine that can reach raiSE, then the build script. Please ask raiSE before republishing this data.
+* The tier shown on a sample enterprise comes from that snapshot via `data/raise-links.json` (each link has a reason). Five of the ten sample enterprises are not raiSE members, and show no tier.
+* The directory has no addresses or opening hours, so only the 10 sample enterprises appear on the map.
 * An earlier version contained invented ratings, reviews, quotes, impact metrics, menu prices and donation figures. They were removed. Do not reintroduce content that is not sourced.
 * GaiGai is independent and not affiliated with raiSE, the Singapore Centre for Social Enterprise.
 

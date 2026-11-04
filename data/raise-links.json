@@ -1,0 +1,22 @@
+{
+  "_comment": "Maps sample enterprise ids to raiSE directory ids. directoryId null = not found in the directory snapshot. Every override needs a reason. Checked 2026-11-05 against data/raise-directory.tsv.",
+  "foreword-coffee": {
+    "directoryId": 8404,
+    "note": "raiSE files Foreword Coffee under Professional Services, although it operates cafes."
+  },
+  "bettr-group": { "directoryId": 7460, "note": null },
+  "the-social-space": { "directoryId": 7609, "note": null },
+  "teddythotz": {
+    "directoryId": 7706,
+    "note": "raiSE lists TeddyThotz in the Emerging tier."
+  },
+  "dignity-kitchen": {
+    "directoryId": 7710,
+    "note": "Listed as Project Dignity (the operator), under Education & Training, with impact type 'Inclusive products and services' only, not 'Inclusive employment'."
+  },
+  "prof-brawn": { "directoryId": null, "note": "Not found in the raiSE directory snapshot (may operate under a charity)." },
+  "hush-teabar": { "directoryId": null, "note": "Not found in the raiSE directory snapshot." },
+  "savh-massage": { "directoryId": null, "note": "Not found in the raiSE directory snapshot (SAVH is a charity)." },
+  "the-art-faculty": { "directoryId": null, "note": "Not found in the raiSE directory snapshot." },
+  "runninghour": { "directoryId": null, "note": "Not found in the raiSE directory snapshot." }
+}

@@ -3,8 +3,8 @@ import { BrandLogo } from './BrandLogo';
 import { MapPin, Heart, Compass, BookmarkCheck } from 'lucide-react';
 
 interface NavbarProps {
-  currentTab: 'map' | 'directory' | 'about';
-  setCurrentTab: (tab: 'map' | 'directory' | 'about') => void;
+  currentTab: 'map' | 'directory' | 'raise' | 'about';
+  setCurrentTab: (tab: 'map' | 'directory' | 'raise' | 'about') => void;
   trailCount: number;
   openTrailDrawer: () => void;
 }

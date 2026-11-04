@@ -36,6 +36,24 @@ export interface SocialEnterprise {
   raiseTier: string | null;
   /** ISO date (YYYY-MM-DD) the raiSE directory was last checked for this record. */
   raiseCheckedOn: string | null;
+  /** Link to this enterprise's raiSE directory record, when it has one. */
+  raiseUrl?: string | null;
+  /** Plain-language caveat about the raiSE listing (mis-tags, not listed, etc.). */
+  raiseNote?: string | null;
+}
+
+/** One record of the raiSE membership directory snapshot (src/data/raiseDirectory.json). */
+export interface RaiseEntry {
+  id: number;
+  name: string;
+  tierCode: number;
+  tier: string;
+  industryCode: number | null;
+  industry: string | null;
+  impact: string[];
+  beneficiaryCodes: number[];
+  beneficiaries: string[];
+  url: string;
 }
 
 export interface ItineraryItem {
