@@ -28,13 +28,21 @@ Requires Node 18+.
 
 ```bash
 npm install --legacy-peer-deps
-cp .env.example .env     # add keys (both optional)
-npm run dev              # http://localhost:3000
-npm run lint             # type check
+cp .env.example .env     # add keys (all optional)
+npm run dev              # development server on http://localhost:3000
+npm run check            # type check, tests, production build
+npm run build && npm start   # production: serves dist/ (set NODE_ENV via the start script)
 ```
 
+Environment variables (see `.env.example`):
+
 * `VITE_GOOGLE_MAPS_API_KEY`: live Google Maps. Without it the vector map is used.
-* `GEMINI_API_KEY`: voice and map-grounded search. Without it those two features return errors.
+* `GEMINI_API_KEY`: voice and map-grounded search. Without it those routes return 503.
+* `GEMINI_TRANSCRIBE_MODEL`, `GEMINI_MAPS_MODEL`: model names. The defaults could not be verified against Google's docs; override them if a call fails with "model not found".
+* `ADMIN_TOKEN`: lets you read `/api/events/summary` (pilot counts).
+* `PORT`, `TRUST_PROXY` (number of reverse proxies in front, so rate limits see real client IPs).
+
+The API is rate-limited per IP (60 events per minute, 10 Gemini calls per minute), kept in memory: it resets on restart and is per instance.
 
 ## Stack
 
