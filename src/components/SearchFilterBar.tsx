@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
-import { Category, BeneficiaryCause } from '../types';
+import { Category, BeneficiaryGroup } from '../types';
+import { GroupOptions, matchesGroup } from '../data/groups';
 import { 
   Search, 
   Mic, 
@@ -40,8 +41,8 @@ interface SearchFilterBarProps {
   setSelectedNeighborhood: (n: string) => void;
   selectedCategory: Category | 'all';
   setSelectedCategory: (c: Category | 'all') => void;
-  selectedCause: BeneficiaryCause | 'all';
-  setSelectedCause: (cause: BeneficiaryCause | 'all') => void;
+  selectedCause: BeneficiaryGroup | 'all';
+  setSelectedCause: (cause: BeneficiaryGroup | 'all') => void;
   onSearchSubmit: () => void;
   onResetFilters: () => void;
 }
@@ -344,23 +345,18 @@ export const SearchFilterBar: React.FC<SearchFilterBarProps> = ({
           {/* Cause Selector */}
           <div className="flex items-center gap-2">
             <label htmlFor="cause-filter-select" className="font-semibold text-stone-500 uppercase tracking-wider shrink-0">
-              Cause:
+              Who they employ:
             </label>
             <select
               id="cause-filter-select"
               value={selectedCause}
               onChange={(e) => {
-                setSelectedCause(e.target.value as BeneficiaryCause | 'all');
+                setSelectedCause(e.target.value as BeneficiaryGroup | 'all');
                 onSearchSubmit();
               }}
               className="flex-1 text-xs font-medium text-stone-800 bg-stone-50 border border-stone-300 rounded-lg px-2.5 py-1.5 focus-visible:ring-2 focus-visible:ring-rose-600 focus:outline-none"
             >
-              <option value="all">All Beneficiary Causes</option>
-              <option value="neurodiversity">Neurodiversity &amp; Autism</option>
-              <option value="disabilities">Physical &amp; Intellectual Disabilities</option>
-              <option value="women_youth">Marginalized Women &amp; Youth</option>
-              <option value="seniors">Elderly Crafters &amp; Artisans</option>
-              <option value="visual_impairment">Visually Impaired Community</option>
+              <GroupOptions />
             </select>
           </div>
 

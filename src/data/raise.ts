@@ -1,6 +1,7 @@
 import raw from './raiseDirectory.json';
 import links from '../../data/raise-links.json';
-import { RaiseEntry, SocialEnterprise } from '../types';
+import { BeneficiaryGroup, RaiseEntry, SocialEnterprise } from '../types';
+import { RAISE_CODE_TO_GROUP } from './groups';
 
 export const RAISE_FETCHED_ON: string = raw.fetchedOn;
 export const RAISE_SCOPE: string = raw.scope;
@@ -13,6 +14,15 @@ export const RAISE_ENTRIES: RaiseEntry[] = (raw.entries as RaiseEntry[]).filter(
 const byId = new Map(RAISE_ENTRIES.map((e) => [e.id, e]));
 
 type LinkMap = Record<string, { directoryId: number | null; note: string | null } | string>;
+
+function groupsFor(entry: RaiseEntry): BeneficiaryGroup[] {
+  const out = new Set<BeneficiaryGroup>();
+  entry.beneficiaryCodes.forEach((c) => {
+    const g = RAISE_CODE_TO_GROUP[c];
+    if (g) out.add(g);
+  });
+  return [...out];
+}
 
 /**
  * Fills raiSE tier, link and caveat onto the sample enterprises from the
@@ -27,6 +37,7 @@ export function attachRaise(enterprises: SocialEnterprise[]): SocialEnterprise[]
     const entry = link.directoryId != null ? byId.get(link.directoryId) : undefined;
     return {
       ...ent,
+      groups: entry ? groupsFor(entry) : [],
       raiseTier: entry ? entry.tier : null,
       raiseCheckedOn: entry ? RAISE_FETCHED_ON : null,
       raiseUrl: entry ? entry.url : null,

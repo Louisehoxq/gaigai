@@ -1,5 +1,6 @@
 import React from 'react';
 import { SocialEnterprise, Category } from '../types';
+import { GROUP_LABELS } from '../data/groups';
 import { 
   Navigation, 
   Clock, 
@@ -97,9 +98,23 @@ export const EnterpriseCard: React.FC<EnterpriseCardProps> = ({
           {enterprise.description}
         </p>
 
-        <div className="mt-3.5 p-2.5 bg-stone-50/80 rounded-xl border border-stone-200/60 text-xs">
-          <span className="block text-[11px] text-stone-500 font-medium">Community supported</span>
-          <span className="font-semibold text-emerald-800">{enterprise.causeLabel}</span>
+        <div className="mt-3.5 p-2.5 bg-stone-50/80 rounded-xl border border-stone-200/60 text-xs space-y-1.5">
+          <span className="block text-[11px] text-stone-500 font-medium">Who they employ or support</span>
+          <span className="block font-semibold text-emerald-800">{enterprise.causeLabel}</span>
+          <ul className="flex flex-wrap gap-1" aria-label="Groups supported">
+            {enterprise.groups.map((g) => (
+              <li key={`r-${g}`} className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-50 text-emerald-900 border border-emerald-200" title="Tagged by raiSE">
+                {GROUP_LABELS[g]}
+              </li>
+            ))}
+            {enterprise.selfDescribedGroups
+              .filter((g) => !enterprise.groups.includes(g))
+              .map((g) => (
+                <li key={`s-${g}`} className="text-[10px] px-1.5 py-0.5 rounded border border-dashed border-stone-300 text-stone-600" title="The enterprise describes itself this way. Not checked.">
+                  {GROUP_LABELS[g]} (self-described)
+                </li>
+              ))}
+          </ul>
         </div>
       </div>
 

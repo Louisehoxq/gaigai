@@ -2,10 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { 
   SocialEnterprise, 
   Category, 
-  BeneficiaryCause 
+  BeneficiaryGroup 
 } from './types';
 import { SOCIAL_ENTERPRISES } from './data/socialEnterprises';
 import { attachRaise } from './data/raise';
+import { GroupOptions, matchesGroup } from './data/groups';
 import { RaiseDirectory } from './components/RaiseDirectory';
 import { Navbar } from './components/Navbar';
 import { SingaporeGoogleMap } from './components/SingaporeGoogleMap';
@@ -76,7 +77,7 @@ export default function App() {
 
   // Filter states
   const [selectedCategory, setSelectedCategory] = useState<Category | 'all'>('all');
-  const [selectedCause, setSelectedCause] = useState<BeneficiaryCause | 'all'>('all');
+  const [selectedCause, setSelectedCause] = useState<BeneficiaryGroup | 'all'>('all');
   const [selectedNeighborhood, setSelectedNeighborhood] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
 
@@ -126,7 +127,7 @@ export default function App() {
   // Filtered enterprises based on category, cause, neighborhood, and search query
   const filteredEnterprises = enterprises.filter((item) => {
     const matchCategory = selectedCategory === 'all' || item.category === selectedCategory;
-    const matchCause = selectedCause === 'all' || item.cause === selectedCause;
+    const matchCause = selectedCause === 'all' || matchesGroup(item, selectedCause);
     const matchNeighborhood = 
       selectedNeighborhood === 'all' || 
       item.district.toLowerCase().includes(selectedNeighborhood.toLowerCase()) ||
@@ -474,19 +475,14 @@ export default function App() {
                   {/* Beneficiary Filter */}
                   <div className="flex items-center gap-2">
                     <span className="text-xs font-bold text-stone-500 uppercase tracking-wider">
-                      Cause:
+                      Who they employ:
                     </span>
                     <select
                       value={selectedCause}
-                      onChange={(e) => setSelectedCause(e.target.value as BeneficiaryCause | 'all')}
+                      onChange={(e) => setSelectedCause(e.target.value as BeneficiaryGroup | 'all')}
                       className="text-xs font-semibold text-stone-800 bg-stone-50 border border-stone-300 rounded-xl px-3 py-2 focus-visible:ring-2 focus-visible:ring-rose-600 focus:outline-none"
                     >
-                      <option value="all">All Beneficiary Causes</option>
-                      <option value="neurodiversity">Neurodiversity &amp; Autism</option>
-                      <option value="disabilities">Physical &amp; Intellectual Disabilities</option>
-                      <option value="women_youth">Marginalized Women &amp; Youth</option>
-                      <option value="seniors">Elderly Crafters &amp; Artisans</option>
-                      <option value="visual_impairment">Visually Impaired Community</option>
+                      <GroupOptions />
                     </select>
                   </div>
                 </div>
