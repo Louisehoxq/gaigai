@@ -1,12 +1,10 @@
 import React from 'react';
 import { BrandLogo } from './BrandLogo';
-import { MapPin, Sparkles, Heart, Compass, LayoutDashboard, BookmarkCheck } from 'lucide-react';
+import { MapPin, Heart, Compass, BookmarkCheck } from 'lucide-react';
 
 interface NavbarProps {
-  currentTab: 'map' | 'directory' | 'stories' | 'about';
-  setCurrentTab: (tab: 'map' | 'directory' | 'stories' | 'about') => void;
-  isEnterpriseMode: boolean;
-  setIsEnterpriseMode: (val: boolean) => void;
+  currentTab: 'map' | 'directory' | 'about';
+  setCurrentTab: (tab: 'map' | 'directory' | 'about') => void;
   trailCount: number;
   openTrailDrawer: () => void;
 }
@@ -14,8 +12,6 @@ interface NavbarProps {
 export const Navbar: React.FC<NavbarProps> = ({
   currentTab,
   setCurrentTab,
-  isEnterpriseMode,
-  setIsEnterpriseMode,
   trailCount,
   openTrailDrawer,
 }) => {
@@ -26,7 +22,6 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Zone 1: Brand Wordmark & Heart Motif */}
           <button
             onClick={() => {
-              setIsEnterpriseMode(false);
               setCurrentTab('map');
             }}
             className="flex items-center gap-2 text-left hover:opacity-90 transition-opacity focus-visible:ring-2 focus-visible:ring-rose-600 rounded-md p-1 -ml-1 shrink-0"
@@ -42,11 +37,10 @@ export const Navbar: React.FC<NavbarProps> = ({
           >
             <button
               onClick={() => {
-                setIsEnterpriseMode(false);
-                setCurrentTab('map');
+                  setCurrentTab('map');
               }}
               className={`hover:text-rose-600 transition-colors whitespace-nowrap shrink-0 flex items-center gap-1.5 py-1 ${
-                !isEnterpriseMode && currentTab === 'map' ? 'text-rose-600 font-semibold border-b-2 border-rose-600 -mb-0.5' : ''
+                currentTab === 'map' ? 'text-rose-600 font-semibold border-b-2 border-rose-600 -mb-0.5' : ''
               }`}
             >
               <MapPin className="w-4 h-4 text-rose-500" aria-hidden="true" />
@@ -55,11 +49,10 @@ export const Navbar: React.FC<NavbarProps> = ({
 
             <button
               onClick={() => {
-                setIsEnterpriseMode(false);
-                setCurrentTab('directory');
+                  setCurrentTab('directory');
               }}
               className={`hover:text-rose-600 transition-colors whitespace-nowrap shrink-0 flex items-center gap-1.5 py-1 ${
-                !isEnterpriseMode && currentTab === 'directory' ? 'text-rose-600 font-semibold border-b-2 border-rose-600 -mb-0.5' : ''
+                currentTab === 'directory' ? 'text-rose-600 font-semibold border-b-2 border-rose-600 -mb-0.5' : ''
               }`}
             >
               <Compass className="w-4 h-4 text-stone-500" aria-hidden="true" />
@@ -68,11 +61,10 @@ export const Navbar: React.FC<NavbarProps> = ({
 
             <button
               onClick={() => {
-                setIsEnterpriseMode(false);
-                setCurrentTab('about');
+                  setCurrentTab('about');
               }}
               className={`hover:text-rose-600 transition-colors whitespace-nowrap shrink-0 flex items-center gap-1.5 py-1 ${
-                !isEnterpriseMode && currentTab === 'about' ? 'text-rose-600 font-semibold border-b-2 border-rose-600 -mb-0.5' : ''
+                currentTab === 'about' ? 'text-rose-600 font-semibold border-b-2 border-rose-600 -mb-0.5' : ''
               }`}
             >
               <Heart className="w-4 h-4 text-emerald-600" aria-hidden="true" />
@@ -83,7 +75,7 @@ export const Navbar: React.FC<NavbarProps> = ({
           {/* Zone 3: Primary Action & Trail Trigger */}
           <div className="flex items-center gap-3 shrink-0">
             {/* Trail Bag / Itinerary Button */}
-            {!isEnterpriseMode && (
+            {(
               <button
                 onClick={openTrailDrawer}
                 className="relative flex items-center gap-2 px-3.5 py-2 text-xs font-semibold text-stone-700 bg-stone-100 hover:bg-stone-200 border border-stone-200 rounded-lg transition-colors focus-visible:ring-2 focus-visible:ring-rose-600 shrink-0"
@@ -97,18 +89,6 @@ export const Navbar: React.FC<NavbarProps> = ({
               </button>
             )}
 
-            {/* Enterprise Portal Toggle */}
-            <button
-              onClick={() => setIsEnterpriseMode(!isEnterpriseMode)}
-              className={`flex items-center gap-2 px-4 py-2 text-xs font-semibold rounded-lg transition-all focus-visible:ring-2 focus-visible:ring-rose-600 shrink-0 ${
-                isEnterpriseMode
-                  ? 'bg-stone-900 text-white hover:bg-stone-800'
-                  : 'bg-rose-600 text-white hover:bg-rose-700 shadow-sm'
-              }`}
-            >
-              <LayoutDashboard className="w-4 h-4" aria-hidden="true" />
-              <span>{isEnterpriseMode ? 'Back to GaiGai' : 'Enterprise Portal'}</span>
-            </button>
           </div>
         </div>
       </div>
@@ -117,11 +97,10 @@ export const Navbar: React.FC<NavbarProps> = ({
       <div className="md:hidden flex items-center justify-around border-t border-stone-200 bg-stone-50 px-2 py-1.5">
         <button
           onClick={() => {
-            setIsEnterpriseMode(false);
             setCurrentTab('map');
           }}
           className={`flex flex-col items-center py-1 px-2 text-[11px] font-medium ${
-            !isEnterpriseMode && currentTab === 'map' ? 'text-rose-600 font-bold' : 'text-stone-600'
+            currentTab === 'map' ? 'text-rose-600 font-bold' : 'text-stone-600'
           }`}
         >
           <MapPin className="w-4 h-4" />
@@ -129,11 +108,10 @@ export const Navbar: React.FC<NavbarProps> = ({
         </button>
         <button
           onClick={() => {
-            setIsEnterpriseMode(false);
             setCurrentTab('directory');
           }}
           className={`flex flex-col items-center py-1 px-2 text-[11px] font-medium ${
-            !isEnterpriseMode && currentTab === 'directory' ? 'text-rose-600 font-bold' : 'text-stone-600'
+            currentTab === 'directory' ? 'text-rose-600 font-bold' : 'text-stone-600'
           }`}
         >
           <Compass className="w-4 h-4" />
@@ -141,11 +119,10 @@ export const Navbar: React.FC<NavbarProps> = ({
         </button>
         <button
           onClick={() => {
-            setIsEnterpriseMode(false);
             setCurrentTab('about');
           }}
           className={`flex flex-col items-center py-1 px-2 text-[11px] font-medium ${
-            !isEnterpriseMode && currentTab === 'about' ? 'text-rose-600 font-bold' : 'text-stone-600'
+            currentTab === 'about' ? 'text-rose-600 font-bold' : 'text-stone-600'
           }`}
         >
           <Heart className="w-4 h-4" />

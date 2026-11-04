@@ -7,7 +7,6 @@ import {
   Activity, 
   MapPin, 
   Navigation, 
-  Sparkles, 
   ChevronRight,
   Filter,
   CheckCircle2
@@ -21,7 +20,6 @@ interface SingaporeMapProps {
   setSelectedCategory: (cat: Category | 'all') => void;
   selectedCause: BeneficiaryCause | 'all';
   setSelectedCause: (cause: BeneficiaryCause | 'all') => void;
-  onOpenStory: (enterprise: SocialEnterprise) => void;
   onAddToTrail: (enterprise: SocialEnterprise) => void;
   isInTrail: (enterpriseId: string) => boolean;
 }
@@ -34,7 +32,6 @@ export const SingaporeMap: React.FC<SingaporeMapProps> = ({
   setSelectedCategory,
   selectedCause,
   setSelectedCause,
-  onOpenStory,
   onAddToTrail,
   isInTrail,
 }) => {
@@ -373,7 +370,6 @@ export const SingaporeMap: React.FC<SingaporeMapProps> = ({
         <div className="absolute bottom-3 left-3 bg-white/95 backdrop-blur-sm p-3 rounded-xl border border-stone-200 shadow-sm text-xs space-y-1.5 hidden sm:block">
           <div className="font-semibold text-stone-700 pb-1 border-b border-stone-100 flex items-center justify-between gap-4">
             <span>Singapore Social Map</span>
-            <span className="text-[10px] text-emerald-700 bg-emerald-50 px-1.5 py-0.2 rounded font-medium">raiSE Verified</span>
           </div>
           <div className="flex items-center gap-2 text-stone-600">
             <span className="w-2.5 h-2.5 rounded-full bg-rose-600 inline-block" />
@@ -413,9 +409,6 @@ export const SingaporeMap: React.FC<SingaporeMapProps> = ({
                   {selectedEnterprise.name}
                 </h4>
               </div>
-              <span className="text-xs bg-emerald-50 text-emerald-800 border border-emerald-200 font-semibold px-2 py-0.5 rounded shrink-0">
-                ★ {selectedEnterprise.googleRating}
-              </span>
             </div>
 
             <p className="text-xs text-stone-600 mt-1.5 line-clamp-2">
@@ -427,19 +420,17 @@ export const SingaporeMap: React.FC<SingaporeMapProps> = ({
                 <Navigation className="w-3.5 h-3.5 text-rose-500 shrink-0" />
                 <span className="truncate">{selectedEnterprise.mrt}</span>
               </span>
-              <span className="font-semibold text-emerald-700 shrink-0">
-                {selectedEnterprise.impactMetrics.primaryNumber}
-              </span>
             </div>
 
             <div className="mt-3 flex items-center gap-2">
-              <button
-                onClick={() => onOpenStory(selectedEnterprise)}
+              <a
+                href={selectedEnterprise.website}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex-1 py-1.5 px-2.5 text-xs font-semibold text-rose-700 bg-rose-50 hover:bg-rose-100 rounded-lg transition-colors flex items-center justify-center gap-1 focus-visible:ring-2 focus-visible:ring-rose-600"
               >
-                <Sparkles className="w-3.5 h-3.5" />
-                <span>Impact Story</span>
-              </button>
+                <span>Website</span>
+              </a>
 
               <button
                 onClick={() => onAddToTrail(selectedEnterprise)}
