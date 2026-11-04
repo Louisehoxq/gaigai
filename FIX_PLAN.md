@@ -21,3 +21,9 @@ Goal: make the prototype honest, then use it to test whether discovery shifts sp
 Removed: Google ratings and reviews, owner replies, founder and beneficiary quotes, impact metrics, menu items and prices, donation goals and amounts, seeded donor messages, the fake PayNow QR and UEN, the "Enterprise Portal" (it only showed simulated data), animated story chapters, phone numbers and emails, and the invented "estimated social return" on the trail drawer.
 
 Kept: names, websites, categories, beneficiary groups, locations and opening hours, all clearly labelled as unverified sample data.
+
+## Phase 2 notes
+
+* The single `cause` per enterprise is replaced by two lists: `groups` (tagged by raiSE, filled from the directory snapshot) and `selfDescribedGroups` (what the enterprise says about itself, unverified). The filter matches either; cards show them differently.
+* Groups follow raiSE's beneficiary tags (disabilities, mental health, former offenders, single parents, youth-at-risk, low-income, chronically unemployed), plus **older workers**, which raiSE does not track at all.
+* Not done: "open now" and "near my MRT" filters (opening hours are free text and unverified, so a filter would be wrong often), and widening the sample (the raiSE Directory tab from Phase 1 is the wider list; mapping it needs geocoded, checked addresses).

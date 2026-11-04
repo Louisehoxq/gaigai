@@ -1,11 +1,14 @@
 export type Category = 'fnb' | 'wellness' | 'gifts' | 'experience';
 
-export type BeneficiaryCause =
-  | 'neurodiversity'
+export type BeneficiaryGroup =
   | 'disabilities'
-  | 'women_youth'
-  | 'seniors'
-  | 'visual_impairment';
+  | 'mental_health'
+  | 'ex_offenders'
+  | 'single_parents'
+  | 'youth_at_risk'
+  | 'low_income'
+  | 'unemployed'
+  | 'older_workers';
 
 export interface SocialEnterprise {
   id: string;
@@ -13,8 +16,12 @@ export interface SocialEnterprise {
   tagline: string;
   description: string;
   category: Category;
-  cause: BeneficiaryCause;
+  /** Short free-text description of who is supported (unverified for sample data). */
   causeLabel: string;
+  /** Groups tagged by raiSE for this enterprise. Filled from the directory snapshot; empty if not a raiSE member. */
+  groups: BeneficiaryGroup[];
+  /** Groups the enterprise describes itself as supporting. Unverified; shown separately from raiSE tags. */
+  selfDescribedGroups: BeneficiaryGroup[];
   address: string;
   district: string;
   mrt: string;
