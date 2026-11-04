@@ -3,6 +3,9 @@ import express, { Request, Response } from 'express';
 import { createServer as createViteServer } from 'vite';
 import dotenv from 'dotenv';
 import { GoogleGenAI } from '@google/genai';
+import fs from 'fs';
+import path from 'path';
+import crypto from 'crypto';
 
 dotenv.config();
 
@@ -19,6 +22,58 @@ const ai = new GoogleGenAI({
       'User-Agent': 'aistudio-build',
     },
   },
+});
+
+// ---- Pilot event counting (anonymous: no IP, no user id, no cookies) ----
+const EVENT_NAMES = new Set(['qr_scan', 'outbound_click', 'trail_add', 'raise_record_click']);
+const ID_RE = /^[a-z0-9-]{1,40}$/;
+const MEDIUM_RE = /^[a-z]{1,20}$/;
+const EVENTS_FILE = path.join(process.cwd(), 'data', 'events.jsonl');
+
+app.post('/api/events', (req: Request, res: Response) => {
+  const { event, enterpriseId, medium } = req.body ?? {};
+  if (typeof event !== 'string' || !EVENT_NAMES.has(event)) return res.status(400).json({ error: 'bad event' });
+  if (typeof enterpriseId !== 'string' || !ID_RE.test(enterpriseId)) return res.status(400).json({ error: 'bad enterpriseId' });
+  if (medium != null && (typeof medium !== 'string' || !MEDIUM_RE.test(medium))) return res.status(400).json({ error: 'bad medium' });
+  const line = JSON.stringify({ t: new Date().toISOString(), event, enterpriseId, medium: medium ?? null }) + '\n';
+  fs.mkdir(path.dirname(EVENTS_FILE), { recursive: true }, (mkErr) => {
+    if (mkErr) return res.status(500).json({ error: 'storage unavailable' });
+    fs.appendFile(EVENTS_FILE, line, (err) => (err ? res.status(500).json({ error: 'storage unavailable' }) : res.status(204).end()));
+  });
+});
+
+// Per-enterprise, per-event counts. Requires the ADMIN_TOKEN env var and a matching x-admin-token header.
+app.get('/api/events/summary', (req: Request, res: Response) => {
+  const expected = process.env.ADMIN_TOKEN;
+  const given = String(req.header('x-admin-token') ?? '');
+  const ok =
+    !!expected &&
+    given.length === expected.length &&
+    crypto.timingSafeEqual(Buffer.from(given), Buffer.from(expected));
+  if (!ok) return res.status(403).json({ error: 'forbidden' });
+  let text = '';
+  try {
+    text = fs.readFileSync(EVENTS_FILE, 'utf8');
+  } catch {
+    return res.json({ total: 0, byEnterprise: {}, byDay: {} });
+  }
+  const byEnterprise: Record<string, Record<string, number>> = {};
+  const byDay: Record<string, number> = {};
+  let total = 0;
+  for (const line of text.split('\n')) {
+    if (!line) continue;
+    try {
+      const e = JSON.parse(line);
+      byEnterprise[e.enterpriseId] ??= {};
+      byEnterprise[e.enterpriseId][e.event] = (byEnterprise[e.enterpriseId][e.event] ?? 0) + 1;
+      const day = String(e.t).slice(0, 10);
+      byDay[day] = (byDay[day] ?? 0) + 1;
+      total++;
+    } catch {
+      /* skip a corrupt line */
+    }
+  }
+  return res.json({ total, byEnterprise, byDay });
 });
 
 // API: Audio Transcription using gemini-3.5-transcribe

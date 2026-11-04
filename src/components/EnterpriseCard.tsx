@@ -1,6 +1,7 @@
 import React from 'react';
 import { SocialEnterprise, Category } from '../types';
 import { GROUP_LABELS } from '../data/groups';
+import { track, trackedUrl } from '../lib/track';
 import { 
   Navigation, 
   Clock, 
@@ -134,7 +135,7 @@ export const EnterpriseCard: React.FC<EnterpriseCardProps> = ({
             {enterprise.raiseUrl && (
               <>
                 {' '}
-                <a href={enterprise.raiseUrl} target="_blank" rel="noopener noreferrer" className="underline">raiSE record</a>
+                <a href={enterprise.raiseUrl} onClick={() => track('raise_record_click', enterprise.id)} target="_blank" rel="noopener noreferrer" className="underline">raiSE record</a>
               </>
             )}
           </p>
@@ -170,7 +171,8 @@ export const EnterpriseCard: React.FC<EnterpriseCardProps> = ({
         </button>
 
         <a
-          href={enterprise.website}
+          href={trackedUrl(enterprise, 'card')}
+          onClick={() => track('outbound_click', enterprise.id, { medium: 'card' })}
           target="_blank"
           rel="noopener noreferrer"
           className="py-2 px-3 text-xs font-semibold text-white bg-rose-600 hover:bg-rose-700 rounded-lg transition-colors flex items-center justify-center gap-1 shadow-sm focus-visible:ring-2 focus-visible:ring-rose-600 shrink-0"

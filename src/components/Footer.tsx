@@ -73,7 +73,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-stone-400">
-          <p>© {new Date().getFullYear()} GaiGai Singapore. Made with heart for our community.</p>
+          <p>© {new Date().getFullYear()} GaiGai Singapore. We count anonymous clicks and scans (no cookies, no personal data) to learn whether this helps.</p>
           <p className="flex items-center gap-1">
             <span>Passionate about purposeful spending in Singapore</span>
             <Heart className="w-3.5 h-3.5 fill-rose-500 text-rose-500" />

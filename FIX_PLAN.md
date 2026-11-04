@@ -27,3 +27,9 @@ Kept: names, websites, categories, beneficiary groups, locations and opening hou
 * The single `cause` per enterprise is replaced by two lists: `groups` (tagged by raiSE, filled from the directory snapshot) and `selfDescribedGroups` (what the enterprise says about itself, unverified). The filter matches either; cards show them differently.
 * Groups follow raiSE's beneficiary tags (disabilities, mental health, former offenders, single parents, youth-at-risk, low-income, chronically unemployed), plus **older workers**, which raiSE does not track at all.
 * Not done: "open now" and "near my MRT" filters (opening hours are free text and unverified, so a filter would be wrong often), and widening the sample (the raiSE Directory tab from Phase 1 is the wider list; mapping it needs geocoded, checked addresses).
+
+## Phase 3 notes
+
+* Added anonymous event counting (`/api/events`: scans, outbound clicks, trail adds, raiSE-record clicks), tagged outbound links (`utm_*`), a QR landing (`/?src=qr&se=<id>`), `scripts/make-qr.mjs`, and a pilot kit in `pilot/`.
+* Counts measure intent, not footfall or sales. The tally sheet and SE check-ins are the only footfall signal; there is no payments data.
+* Not done: recruiting SEs, sending any outreach, deploying, and counting return visitors (needs a visitor identifier, which means a privacy decision for you).

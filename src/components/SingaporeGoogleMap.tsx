@@ -8,6 +8,7 @@ import {
 } from '@vis.gl/react-google-maps';
 import { SocialEnterprise, Category, BeneficiaryGroup } from '../types';
 import { GroupOptions, matchesGroup } from '../data/groups';
+import { track, trackedUrl } from '../lib/track';
 import { 
   Coffee, 
   Heart, 
@@ -321,7 +322,8 @@ export const SingaporeGoogleMap: React.FC<SingaporeGoogleMapProps> = ({
 
                     <div className="pt-1 flex items-center gap-2">
                       <a
-                        href={activeEnterprise.website}
+                        href={trackedUrl(activeEnterprise, 'map')}
+                        onClick={() => track('outbound_click', activeEnterprise.id, { medium: 'map' })}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex-1 py-1 px-2 text-[11px] font-semibold text-rose-700 bg-rose-50 hover:bg-rose-100 rounded transition-colors flex items-center justify-center gap-1"

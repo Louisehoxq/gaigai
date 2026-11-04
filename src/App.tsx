@@ -7,6 +7,7 @@ import {
 import { SOCIAL_ENTERPRISES } from './data/socialEnterprises';
 import { attachRaise } from './data/raise';
 import { GroupOptions, matchesGroup } from './data/groups';
+import { track } from './lib/track';
 import { RaiseDirectory } from './components/RaiseDirectory';
 import { Navbar } from './components/Navbar';
 import { SingaporeGoogleMap } from './components/SingaporeGoogleMap';
@@ -43,6 +44,23 @@ export default function App() {
     } catch {
       /* storage unavailable: nothing to clean */
     }
+  }, []);
+
+  // QR landing: /?src=qr&se=<enterprise id> counts one scan and opens that enterprise.
+  useEffect(() => {
+    try {
+      const params = new URLSearchParams(window.location.search);
+      const se = params.get('se');
+      if (params.get('src') === 'qr' && se && SOCIAL_ENTERPRISES.some((e) => e.id === se)) {
+        track('qr_scan', se);
+        setSelectedEnterpriseId(se);
+        setCurrentTab('directory');
+        window.history.replaceState({}, '', window.location.pathname);
+      }
+    } catch {
+      /* ignore malformed URLs */
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // Google Maps Quota State
@@ -99,6 +117,7 @@ export default function App() {
       setTrailIds(trailIds.filter((id) => id !== enterprise.id));
     } else {
       setTrailIds([...trailIds, enterprise.id]);
+      track('trail_add', enterprise.id);
     }
   };
 
